@@ -37,7 +37,24 @@ it is required in every module.
 
 The module's factories are named `createService`, `createHandler` and `create<Name>Routes`
 in every module — the DI name passed to `addDIResolverName()` is what makes them unique,
-not the function name. See `src/modules/message/` as the reference module.
+not the function name. See `src/modules/places/` as the reference module. The code
+samples below use a generic `message` module to show the shape; it does not exist in this
+repo.
+
+StayHub's modules (all routes under `/api`):
+
+| Module | Prefix | What it does |
+| --- | --- | --- |
+| `application` | `/api` | Health check |
+| `auth` | `/api/auth` | Sign-up, sign-in, sign-out, current user; JWT in an `access_token` cookie |
+| `places` | `/api/places` | Destination autocomplete through LiteAPI (cached) |
+| `hotels` | `/api/hotels` | Hotel search with rates, hotel details and room rates |
+| `bookings` | `/api/bookings` | Prebook, book, list and read the user's own bookings |
+| `chat` | `/api/bookings` | Guest Hub: per-booking concierge messages on Gemini (Vertex AI) |
+
+Shared integrations live in `src/lib/`: `liteapi/` (the LiteAPI client), `ai/` (the Vertex
+AI client), `throttle/`, `cache/` (TTL cache) and `dates/` (the one configured `dayjs`
+instance with the `utc` plugin).
 
 `index.ts` resolves the handler from the container and passes it to the registrar (the
 registrar is not a container entry):
@@ -210,11 +227,16 @@ src/
 │   ├── prisma/          # Schema, migrations and Prisma helper types
 │   └── repositories/    # Data access layer (all Prisma calls live here)
 ├── lib/
+│   ├── ai/              # Vertex AI (Gemini) client for the concierge
 │   ├── awilix/          # DI helpers
+│   ├── cache/           # In-memory TTL cache
 │   ├── constants/       # Global constants
+│   ├── dates/           # dayjs + utc, stay-date helpers
 │   ├── errors/          # Error classes
 │   ├── hashing/         # Password hashing
+│   ├── liteapi/         # LiteAPI client, mapper and error mapping
 │   ├── messages/        # RESPONSE_MESSAGES - all client-facing messages
+│   ├── throttle/        # Request throttle used by the LiteAPI client
 │   └── validation/      # Zod schemas by module
 ├── modules/             # Feature modules
 ├── plugins/             # Fastify plugins
@@ -237,5 +259,8 @@ src/
 4. Run `npm run generate:repository modelName`
 
 ### Run tests
-- Unit: `npm run test:unit`
-- Integration: `docker compose -f docker-compose.test.yml up` then `npm run test:int`
+- Unit: `npm run test:unit:ci`
+- Integration: `docker compose -f docker-compose.test.yml up -d` (Postgres on `localhost:5436`,
+  read from `.env.test`) then `npm run test:int:ci`
+- `test:unit` / `test:int` without `:ci` start Vitest in watch mode; do not use them in
+  scripts or agents.

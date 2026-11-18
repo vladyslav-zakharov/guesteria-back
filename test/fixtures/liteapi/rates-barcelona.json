@@ -1,0 +1,911 @@
+{
+  "_status": 200,
+  "data": [
+    {
+      "hotelId": "lp27a0d8",
+      "roomTypes": [
+        {
+          "roomTypeId": "GY3DSLJSGU4TOMBYGB6E4USGJZ6DEMBSGYYTCMJWGEYDAMD4GF6FEMJQGQ4HYNBWGQ4TG",
+          "offerId": "AwJ2MQAAAABq_rd-MimiPdWorLIildgmpDMPfHRRZ9yPEIobF5hmsPuXvJCuBuJL1aRd2UshHmwqAX1GEGEC-ffLzU85qUaj9UBiesR6FPQqegojLcInsuq4Yp-ShMlz3AL2EqJ6L34lp5x8KSmgZN9LhqUojxxrPVczd74K9ze8r6OYw52hDbuxcvn0zxlMfnsEeF_ZXbHYJlJACgKVm3vEDpEj6kYKfBv9AdpBhb9ahdh1S9e59fRPa5K_B50T895yNygbwEfilVHA-zJ4SLGtpawRVI7lCpDTN2ihdCwnBxm7HYDJBI162gleTOAEJp1zMnBdTngtxheAVaUnQsat-_XpRsfpXftSCNgl6XBraJZQNWUUq3fgxzV4jTwfHQzrU6z9wgbXNEQlQjuOXhVTstFw449DaWbBvoQxU8pOgo4rG3YApItbr1C3Qdvvl39LbodKH5y2rcjMQkjL8oZ-p4reOHzsnRonP2Ry0sMxYhr1gfeyPId3uroXGRjqgQ1hUEIVpw_AGha2w__wSF5_HxaC6JKpfn-N_mcTY44J7lanV2ZFITdWMWe30Fj0ECLW9EnJGxvHMJ1V6dpEHQti5fSjnM8y1c5-w1MvB8rOnqIdjEN4F9G8iERWFPatcHyrqBtW6muAtKQAVeBCRdZWrihhfqHMOBZGlZ93Dsw79jZxwE1SFHcrHvheXKmuUTP8liKCd2PZAxOT9G6XSfeXUP9ACb2LnRHPSXG1NZr_Ofqxtw2B5FetLLnQtmMvDBvCMs3zAqFLPzd3QV2heY8HM3uuQYWikfzLObuaxBKQoT4jDHJKyyojK34g-MEbDzYhkTdr8OIcM-130zoJXSkwxztKcwPycmVLr6J_YJdhfRnrykCiCsL_BlztY1skG5zvSXPwJ_pC3wR-4zZ5Q5_T8GdRS11pwUz2s06xlW8ITYpuNvF9mzA1eKOvAHLrh5P5fWILseUf2U117R13ox5gqUkk3RLapuIHF0lEZU3vQXBg6WLQQhdOmateLtB1wyuEE6yGGo5ve_stY_w15mHN0YwX1Wkz3MeLcJXTyjmiII8UlwU4LWUBYS1ZMLxUUCHcfx3_3QsxXQ==",
+          "supplier": "nuitee",
+          "supplierId": 2,
+          "rates": [
+            {
+              "rateId": "I5MTERCNLJJFQR2VGNCEKTSUIRDVSMSUIVGUEV2HJEZVIS2OKJKUOWJTKRGU4SSYI5JDMRCDJFNFGR2BLJCE2TKKKNDUKNCILFGVEUKHJEZUIQ2NKJJUOQRWI5FTGUZXJNLEUWCZKZFUEUCSINLEWVKUGRDUUQKUIFITGNCHKEZFIRKPJQ2E4RSJI5HVMS2JKBIVSVCPJ5FFKSCFGRKEGTSSKFDTIM2EIVGUITCPKJJEOV2JLJJUOVJUKRHU2QSZI5AVEVCNJZJFURSVLJCEWT2KLBDUCNCEIE3UGT2LJJCEKNBXIJJUOQK2IRGU2SSSI5CTGRCDJVBFCR2CGZCEGN2DKNDUKWKEJFHUINCHKEZUISKPJJKEKTSKIU3ESMSPJNFEIRJUJFNFGR2BLJCE2TCKKJDUKV2UINHFEQKHIVMUIVKNIJIUKTL4GQ3DILRZGN6HYUSPPR6HY7CEN52WE3DFEBBHKZDHMV2HYMBOGAYHYMBOGAYHY7BQFYYDA7BQFYYDA",
+              "occupancyNumber": 1,
+              "name": "Double Budget",
+              "maxOccupancy": 2,
+              "adultCount": 2,
+              "childCount": 0,
+              "childrenAges": [],
+              "boardType": "RO",
+              "boardName": "Room Only",
+              "remarks": "",
+              "priceType": "commission",
+              "commission": [
+                {
+                  "amount": 0,
+                  "currency": "EUR"
+                }
+              ],
+              "retailRate": {
+                "total": [
+                  {
+                    "amount": 464.93,
+                    "currency": "EUR"
+                  }
+                ],
+                "suggestedSellingPrice": [
+                  {
+                    "amount": 487.25,
+                    "currency": "EUR",
+                    "source": "providerDirect"
+                  }
+                ],
+                "initialPrice": [
+                  {
+                    "amount": 464.93,
+                    "currency": "EUR"
+                  }
+                ],
+                "taxesAndFees": [
+                  {
+                    "included": false,
+                    "description": "City Tax",
+                    "amount": 33.61,
+                    "currency": "EUR"
+                  },
+                  {
+                    "included": true,
+                    "description": "Sales tax",
+                    "amount": 42.27,
+                    "currency": "EUR"
+                  }
+                ]
+              },
+              "cancellationPolicies": {
+                "cancelPolicyInfos": [],
+                "hotelRemarks": [],
+                "refundableTag": "NRFN"
+              },
+              "paymentTypes": [
+                "NUITEE_PAY"
+              ],
+              "providerCommission": {
+                "amount": 0,
+                "currency": ""
+              },
+              "perks": [],
+              "promotions": null
+            }
+          ],
+          "offerRetailRate": {
+            "amount": 464.93,
+            "currency": "EUR"
+          },
+          "suggestedSellingPrice": {
+            "amount": 487.25,
+            "currency": "EUR",
+            "source": "providerDirect"
+          },
+          "offerInitialPrice": {
+            "amount": 464.93,
+            "currency": "EUR"
+          },
+          "priceType": "commission",
+          "rateType": "package",
+          "paymentTypes": [
+            "NUITEE_PAY"
+          ],
+          "paymentSchedule": "now"
+        },
+        {
+          "roomTypeId": "GEYTCNRNGI2TSNZQHAYHYTSSIZHHYMRQGI3DCMJRG4YTSNBWPQYXYURRGA2DQ7BUG4YDAOA",
+          "offerId": "AwJ2MQAAAABq_rd-osB6E7inhDnelwq62jcUAYNnHuS-3wkQnoHZRaGbYWs5VpHBv5Rvw4bZG0BvmGU-tUNjaLbOlAhBa_FwWZ0VznAlvPKxn23sWRz3jc-MqpflUkCI0rhIwBXvuEMcfa4NUzXyr-rdoTjvqVEq2QICbaYZTIrC4f837fC8On3c3ul-LKS-rDX3mQGz8sxgz-p8K-BWQ4ZG-3YboGmyLXEH61G60dW8vwxO_V658po9QWOKOQVZ3AOE1DaHL2E-WW6QJShHxN-8gZ8bggkFNdmtKk7dvxs5YcdbXNkj-9PhMKOh_VjCVIH9x_ryjVRRj0z5gxUSDV_4qJC2ozQ6vsWcTtSCOQI7o-emXkHlMi18EaaRgau7oKuVwDKZCGCw6qPUzkGWHVoeIMcvJDn4I2KgJciyfIkFNR0jAGLZyuLsr1wAcw8Qzpqcr6hZN7DR9X7gSqqhTh9xs-I0KqLFYa65mj-_xtElHPIU107463CHpf9P-NdRU4x-EcXqQ9_p1AIBkWHzk8A_Ix9ENs8_ftGZZ91TXs7ocMWNJSQteS6e080u82bE2BWPHdhkRZlr5yJHnB8zEAZxuCu2pI6-lMK1FplE3EyWoVo3jt_E-yILx9jVu_zkB2p8RIJ03GRbP1qcIj8-90u8W4l9sEt7GAnyl2Q-NNCUGFyKh_iXBI8bMwyYDNiobDcHNc3F8N25mKXds8ptLHKUQAsmwtMIvFy9jc5mNWMwLbyDIg-s9IayXHpQym36ffkWGS-qLGmjKWVHUhneuMItMNiqsUVxYcTIj8OYnzQcG0CRpzIqKenQmGnEyVX91ONCAVEB2deVkhKUBbtJxybxeDBMNyOI53IcLi_w_UWdknrwA5pbIQJjhpcc9iaE2ZQkyKWBiESzYCdwgMKV_p1-u77_PLYg8Qc4yE38cCkDI7O2lgu8e6lHHNO7K77D21NvNjvzf9kyo35jxDRGek1dfllo02n2OzuVUdpxghwZR3TeIuyBDgVTnH5rzjLQl1Bhw7GAyDs1OT_iwzxL8Hem3XguCRBg3mEBCR9q5S9LoCYAYbl_0-s=",
+          "supplier": "nuitee",
+          "supplierId": 2,
+          "rates": [
+            {
+              "rateId": "I5MTIRCNLJJFQR2VGNKEOTSSKZDUSWKEJ5GVEV2NLEZUOTKOKRCVAUKZKNDU2USRI5ETGRCDJVJFESCCGZCEKTKCKNDVSWKUIVGVEUKQKJJVONCYGJLEWTRWIZFVCTBUJFLEWVSFG5BFGSKFLFCUON2CKVDVKWSEKM3UISSLIJKFMS2TIQ2EORJTKRJU4QS2JBCVSVCNJVBFQR2ZLJCECMRTKVGUUVSTI5GVEVSIIUZVIQKPIJIUKTKZKRBU2SSXIZKVURCLJ5FFQR2BGRCECN2DJ5FUURCFGQ3UEU2HIFNEITKNJJJEORJTKRBU6SSVI5NDMRCDG5BVGR2FLFCEST2EGRDVCM2UIFGUEWKFJZFEKNSJGJHUWSSEIU2ESWSTI5AVURCNJRFFER2FK5KEGTS2IFDUKNCUKVHEEV2FJV6DINZQFYYDQ7D4KJHXY7D4PREG65LTMUQFE33PNV6DALRQGB6DALRQGB6HYMBOGAYHYMBOGAYA",
+              "occupancyNumber": 1,
+              "name": "House Room",
+              "maxOccupancy": 2,
+              "adultCount": 2,
+              "childCount": 0,
+              "childrenAges": [],
+              "boardType": "RO",
+              "boardName": "Room Only",
+              "remarks": "",
+              "priceType": "commission",
+              "commission": [
+                {
+                  "amount": 0,
+                  "currency": "EUR"
+                }
+              ],
+              "retailRate": {
+                "total": [
+                  {
+                    "amount": 470.08,
+                    "currency": "EUR"
+                  }
+                ],
+                "suggestedSellingPrice": [
+                  {
+                    "amount": 492.64,
+                    "currency": "EUR",
+                    "source": "providerDirect"
+                  }
+                ],
+                "initialPrice": [
+                  {
+                    "amount": 470.08,
+                    "currency": "EUR"
+                  }
+                ],
+                "taxesAndFees": [
+                  {
+                    "included": false,
+                    "description": "City Tax",
+                    "amount": 36.88,
+                    "currency": "EUR"
+                  },
+                  {
+                    "included": true,
+                    "description": "VAT",
+                    "amount": 45.08,
+                    "currency": "EUR"
+                  }
+                ]
+              },
+              "cancellationPolicies": {
+                "cancelPolicyInfos": [],
+                "hotelRemarks": [],
+                "refundableTag": "NRFN"
+              },
+              "paymentTypes": [
+                "NUITEE_PAY"
+              ],
+              "providerCommission": {
+                "amount": 0,
+                "currency": ""
+              },
+              "perks": [],
+              "promotions": null
+            }
+          ],
+          "offerRetailRate": {
+            "amount": 470.08,
+            "currency": "EUR"
+          },
+          "suggestedSellingPrice": {
+            "amount": 492.64,
+            "currency": "EUR",
+            "source": "providerDirect"
+          },
+          "offerInitialPrice": {
+            "amount": 470.08,
+            "currency": "EUR"
+          },
+          "priceType": "commission",
+          "rateType": "package",
+          "paymentTypes": [
+            "NUITEE_PAY"
+          ],
+          "paymentSchedule": "now"
+        },
+        {
+          "roomTypeId": "GEYTCNZNGI2TSNZQHAYHYTSSIZHHYMRQGI3DCMJRG4YTSNBWPQYXYURRGA2DQ7BUG4YTSOI",
+          "offerId": "AwJ2MQAAAABq_rd-lOUHjeqs9S1lHBWV7po0GOtbM9UJmD4tlwWkflOgccta1q55gCYxzI4IfDEiYxNdpHR1Kj02CZCWXXi8aSCOWa9MB_jFKQpYBxHIOPTOPNs3c8ybhdxDZ5Z9PAkhieAZpIN-Ht1w1PzEOamOk_Gq_SW06FoK7BbkApA4Wt85iwpcmv_Mw_G7p8gz3Ul0m1eryidDNPXezwGpIrhdw9idPCXPJZuctSlpWFqxxevgiVhVVrhLPs49xoWhP0WjXNO3ml3z5ZpyBNMEC_7d0yfVFMUbqFOAovePMKsb78a-ZOa0_6y2y60G8yrCTXmB_qL0HiGl2YlS9I7cbMkKU5n6YViQvDN828Rl_d-BkbfZLD4dc4Baup0nxW0hMRh8bR2iCEJE8wT0tzYc4iDId_6_vgYCgRr44X9CqWdIaHVFJjplC7pWNTRWWIoNiPwi1nDw-niHH9wMMnl_sUfNkbDK5Idqf51FJ8mwUr4XE_mdMBGKTMpUxGDMVD1iq_c_VPR6sFE644zsLXPBKhgeN5USx6Jt_81doA0lbPusy_0j_dx3qEhIzmzhRJ47g-2wovBxFadg7tqsP0bFJFW9-8RqaHZ1rkjYboGes3FKXkdj_tA-VQ-QuTtyE1mwkpMRhXzqJIwHffazpGn4sbwwqF8efP-0wLVoC5-GsKBLHqB1FwxiB4FdFNJbCXI_WDCqh-1r7fJeZ1F54s79aTGxcGjv08cPyPFShlmFREeZh4mu6H03xURC4qYZkTTn8_ilLccsHjrr9wQwl0u6f6At9lk2pfTqRjU-s_WzcO3n-zZaa9nhfYxhnURI-NNDIPL_gegncEO6QNMwUQPoN5fasgeuKtAbuntP2AsOErceS7FpGZv13VDBc7z-ivyphGB3HqvWYm1zSOyX9jH4O-vkH4x7f5c_tYwWxP8OA0S83y-XSCJQLSYsmcoCPg2mTAEOrFvRWiJ7ERf7NXpQ_T9taHj62xYtnqFzxXU_Bqi1YLT5a1OuElN78nKHfLbKFRBs0NEebVqLTvRxQ8t7RP-sF4V1hYsYIuU6ywM3xpKNGAY=",
+          "supplier": "nuitee",
+          "supplierId": 2,
+          "rates": [
+            {
+              "rateId": "I5MTIRCNLJJFQR2VGNKEOTSSKZDUSWKEJ5GVEV2NLEZUOTKOKRCVAUKZKNDU2USRI5ETGRCDJVJFESCCGZCEKTKCKNDVSWKUIVGVEUKQKJJVONCYGJLEWTRWIZFVCTBUJFLEWVSFG5BFGSKFLFCUON2CKVDVKWSEKM3UISSLIJKFMS2TIQ2EORJTKRJU4QS2JBCVSVCNJVBFQR2ZLJCECMRTKVGUUVSTI5GVEVSIIUZVIQKPIJIUKTKZKRBU2SSYIZKVURCLJ5FFQR2BGRCECN2DJ5FUURCFGQ3UEU2HIFNEITKNJJJEORJTKRBU6SSVI5NDMRCDG5BVGR2FLFCEST2EGRDVCM2UINHUUWSFJZFEKNSJGJHUWSSEIU2ESWSTI5AVURCNJRFFER2FK5KEGTS2IFDUKNCUKVHEEV2FJV6DINZRFY4TS7D4KJHXY7D4PREG65LTMUQFE33PNV6DALRQGB6DALRQGB6HYMBOGAYHYMBOGAYA",
+              "occupancyNumber": 1,
+              "name": "House Room",
+              "maxOccupancy": 2,
+              "adultCount": 2,
+              "childCount": 0,
+              "childrenAges": [],
+              "boardType": "RO",
+              "boardName": "Room Only",
+              "remarks": "",
+              "priceType": "commission",
+              "commission": [
+                {
+                  "amount": 0,
+                  "currency": "EUR"
+                }
+              ],
+              "retailRate": {
+                "total": [
+                  {
+                    "amount": 471.99,
+                    "currency": "EUR"
+                  }
+                ],
+                "suggestedSellingPrice": [
+                  {
+                    "amount": 494.64,
+                    "currency": "EUR",
+                    "source": "providerDirect"
+                  }
+                ],
+                "initialPrice": [
+                  {
+                    "amount": 471.99,
+                    "currency": "EUR"
+                  }
+                ],
+                "taxesAndFees": [
+                  {
+                    "included": false,
+                    "description": "City Tax",
+                    "amount": 36.88,
+                    "currency": "EUR"
+                  },
+                  {
+                    "included": true,
+                    "description": "VAT",
+                    "amount": 45.26,
+                    "currency": "EUR"
+                  }
+                ]
+              },
+              "cancellationPolicies": {
+                "cancelPolicyInfos": [],
+                "hotelRemarks": [],
+                "refundableTag": "NRFN"
+              },
+              "paymentTypes": [
+                "NUITEE_PAY"
+              ],
+              "providerCommission": {
+                "amount": 0,
+                "currency": ""
+              },
+              "perks": [],
+              "promotions": null
+            }
+          ],
+          "offerRetailRate": {
+            "amount": 471.99,
+            "currency": "EUR"
+          },
+          "suggestedSellingPrice": {
+            "amount": 494.64,
+            "currency": "EUR",
+            "source": "providerDirect"
+          },
+          "offerInitialPrice": {
+            "amount": 471.99,
+            "currency": "EUR"
+          },
+          "priceType": "commission",
+          "rateType": "package",
+          "paymentTypes": [
+            "NUITEE_PAY"
+          ],
+          "paymentSchedule": "now"
+        }
+      ],
+      "et": 10800
+    },
+    {
+      "hotelId": "lp226e5f",
+      "roomTypes": [
+        {
+          "roomTypeId": "GIYDSMRNGIZDKNRUG44XYUSGJZ6DEMBSGYYTEMJWGA4DKOL4GF6FEMJQGAZHYMRRG44DO",
+          "offerId": "AwJ2MQAAAABq_rd-6LQNMPVoLgdJaXzke6SlxZ1bVAjA2-QiXqp1k_jcGN1RGaaTos8SjwLahFYC5tGkSxdcX0Sw4viKmlDKincYrc5zxXy7RjCV8GewD0NonIvOKzUZjFsRribGEP_EIqz9OAaCpN4zonZ85bk_0lswbqwG16lbmJ2qBTcyLGluJ2_VW1WHx2wqP0HyLVQAJG5_4sz3l12U3Q6Pt0JBxKwov_YZZnv9bynjPWCRdtF362Jl8VzXo-P8J0xLUD4ntTZZQGCe1TGG4eNRowrDJqnv_U0gKCf1wWwk63rgR7ZgE_MD4JQb99mNYgoPgJVEXMKHJvz9DP0zcBZhI4h4_2NLSGRkfDCz3jiTsV1Ecj55Ac6fE3XC2vHCyKKR-kj5pFDm_azmP6kjj3T9lCovg_wSEjgahqU-gdOko9WNjcTpSp3CAtepzcwFZZAqC7yToyHilL7txdOdmA94r9HQGoKjDd63LEz1DUeFx5dgcNVvrYHmkJ23oAzud-38kLLR-UMpdKhrefEzeI-uZ19T_fpLewEu9mHawU-mAcP7G3MLFnO1-d73Z-anqjGfy9Iw-A0Bo7w1Lcz-hT3ljSSHGgQDvK94cRR-TKoyN8HNIkn5XOyebUONQOXOuJI-pEgGtL2OXZv2Lx2jmZxG-KtUtwP6RVW6UzBR1bzv5Id7IzmsdEz0Ni2h-Y9C4LQi10iqZkgl7jx2tQR4pU6DQKVl3dZdBaQiY1SfFoneZa1yuuRHGE7CKrDKPtsWC-F5hK8cXumSXYPgUhH0CTg9ft-JpcsVCRGNfvpCAR2bQZJkUmhUXkH6nmScsUD3CiN1Bofzn888ZYeVkOu-6HtckdhZuwYCVEDldxzRpWMSHfbCCZDQvU3dkuSyu-GwBLU9GcGADgP_y-Umsr07XRXIxBhTprnj6dk5e9h5zEMYQMM_MpQj-KKXpv49QJzZv53fMDPUXmlGBUvGCA7gReh256djAcSzRfaPt9SpBaHfYR6Jv0HiG-V8al_MM75aSQt6yDAs5CLdc9L8-DQKtIl7HFpVX-cUGD7Jsqvym_pqnMlWhsra6eeQXa_wLdtXRuU7LujZp2vdrH4Tm60nSMZ4g4sv8SdvMuDowMT6bAcAgArmuFZbk86vNw-F1nollsSkdYo2wI6ifT7dPMMn9a6JqTn84pGkYMk5GS7wfOoqhlC_CYIQMb8xVbQczvt54cCYzSvDNOlZYfq9bzJsHHAYWrTOgl9r7gTne0e8J6nuohsVdEuS-w==",
+          "supplier": "nuitee",
+          "supplierId": 2,
+          "rates": [
+            {
+              "rateId": "I5MTERCNLJJFQR2VGNCEKTSUIRDVSMSUIVGUEV2NLEZVIRKNKJIUONBSIRHU4WSXJBCTGR2LJVJFCRZULJKE6TSKLBDUCM2EJNHFUU2HLE2FITK2KJMEOSK2IRAU4WSTI5NFIRCNLJJFOTKSGZCEGSK2KNDUCWSEJVGUUU2HIU2EQWKNKJIUOSJTIRBU2USTI5BDMR2LGNJTOS2WJJMFSVSLIJIFEQ2WJNKVINCHJJAVIQKRGM2EOUJSKRCU6TBUJZDESR2PKZFUSUCRLFKE6T2KKVEEKNCUINHFEUKHGQZUIRKNIRGE6USSI5LUSWSTI5ETEVCNJZBFQSCFKJKEKTKCLJDUSV2UIVGVEVSHLEZEIT2PJQ2EWSSEIU2DOQSTI5AVURCNJVFFGR2FGNCECT2CKZEEMNSEIM3UGU2HIVMUIQKNKQ2EOSKZKRHU6QSYIVHEERKFJEZFGSK2JBBUOTKSKFDUSM2DGJGUUU2GKVMVITKJIJIUQQJVIRFU6SSEPQZDCNZOHA3XYMRQGI3C2MJSFUYTMIBQHA5DKOJ2GAYHYQSJPR6HY7CEJ5KUETCFEBHVEICUK5EU4ICTKVIEKUSJJ5JCAUSPJ5GXYMBOGAYHYMBOGAYHY7BQFYYDA7BQFYYDA",
+              "occupancyNumber": 1,
+              "name": "DOUBLE OR TWIN SUPERIOR ROOM",
+              "maxOccupancy": 2,
+              "adultCount": 2,
+              "childCount": 0,
+              "childrenAges": [],
+              "boardType": "BI",
+              "boardName": "Breakfast Included",
+              "remarks": "",
+              "priceType": "commission",
+              "commission": [
+                {
+                  "amount": 0,
+                  "currency": "EUR"
+                }
+              ],
+              "retailRate": {
+                "total": [
+                  {
+                    "amount": 217.87,
+                    "currency": "EUR"
+                  }
+                ],
+                "suggestedSellingPrice": [
+                  {
+                    "amount": 218.31,
+                    "currency": "EUR",
+                    "source": "providerDirect"
+                  }
+                ],
+                "initialPrice": [
+                  {
+                    "amount": 217.87,
+                    "currency": "EUR"
+                  }
+                ],
+                "taxesAndFees": [
+                  {
+                    "included": true,
+                    "description": "VAT",
+                    "amount": 19.81,
+                    "currency": "EUR"
+                  },
+                  {
+                    "included": false,
+                    "description": "City tax",
+                    "amount": 31.35,
+                    "currency": "EUR"
+                  }
+                ]
+              },
+              "cancellationPolicies": {
+                "cancelPolicyInfos": [
+                  {
+                    "cancelTime": "2026-12-16 08:59:00",
+                    "amount": 108.93,
+                    "currency": "EUR",
+                    "type": "amount",
+                    "timezone": "GMT"
+                  }
+                ],
+                "hotelRemarks": [],
+                "refundableTag": "RFN"
+              },
+              "paymentTypes": [
+                "NUITEE_PAY"
+              ],
+              "providerCommission": {
+                "amount": 0,
+                "currency": ""
+              },
+              "perks": [],
+              "promotions": null
+            }
+          ],
+          "offerRetailRate": {
+            "amount": 217.87,
+            "currency": "EUR"
+          },
+          "suggestedSellingPrice": {
+            "amount": 218.31,
+            "currency": "EUR",
+            "source": "providerDirect"
+          },
+          "offerInitialPrice": {
+            "amount": 217.87,
+            "currency": "EUR"
+          },
+          "priceType": "commission",
+          "rateType": "package",
+          "paymentTypes": [
+            "NUITEE_PAY"
+          ],
+          "paymentSchedule": "now"
+        },
+        {
+          "roomTypeId": "GEZDINZNGIZDKNRUG44XYTSSIZHHYMRQGI3DCMJRGYZDGMBQPQYXYURRGAYDAQRZHE2U4MCVGR6DEMRUGA3Q",
+          "offerId": "AwJ2MQAAAABq_rd-pPh0HSEiYNk0AzsX6KSZotm_CVDXB_Ic85sFZE0Ad6GDi2oMnhAYMFVS-r5sqv81vZvws4FusDUgJQK5g-UUUlIWCncxDTaTq7cxaGThjxrxK2k0xuiAq-nryWHEqD5e2FzKsCymStAgodXBaGfrOR6diTUFTxlY8DqJsEbwSOqlYwKfWK48Iwla44lBZXd-xXe7FXo9NV9zUtG8R0tiwuL-t7qKhL0TTrMoa8YBjpmLu71Tn-bsYk8srI-82VC2_aCKz1eOKB7BCDvsyVBMs9FV4Z-8eJ1HQwxuPmrnyHI3Dwp7aOyT0zTaP11dGYFSC8mLOS9jSUDNUBfj9zs0tg0crnJ7bDVigmbzbDZT8cuB6bF2kJVq2X9NS2RxN5kU_-7F5M2pkV5JJqlgtTvkaJe1u5AMF2o-XTJW2tqS6t_K4zbplu2CIEaUetLva05J6W7OawRsFSQUWcBbJA2o8961pQ8ET8OOLbc-jVDIn7hp6TrsO8-53M5gsRN9NZ2BCJ_iUgG8n1RlYRofUox-DFtkR3-qG4iO3dq4FyC5T4IOI7rLAS-0KLwFCCTSqKHcRWvQGxwzv3hcnuD0CgI68lzLls4v_f-NhPwLmzK6qBE4qHS6IRDUo_Z0gKaGUP6OrYC-LYdkxrqwQNy4e0sTHX4-_4AKq81UmkTV8S-JFN0rxI2e0Zk-b0U1hMq3NaRfTA1xAA5ssifRzdysoUxcxlECxqqTIWmITLrlUIuXEo44aQ5XgvJo28eNqATxiiHf5VDTwkA_qy8YdyBLcKUHkImlJooFPJTrsNVj8Su_b_BhJzoZjY_qx0N_WKmg-t-Z71PI5HGNHqsRkaG4r1COoCVJ-2EFY5YFa_MH3MSGYBNg9IsBmy97z66iG5u8n1J9_Y8oBYTErGEuVnVDeFz2pyLgIkS_am3r2uUZUQsCcjmqIoRKiZrJQlfsMzvpw1eAYWKqng_mc2-WEZ6C4OXHP_L8Bl83LC8c6x2emBd_VUzmzXv0rFUBnfXuRvh8PYGMsM20yMaQ7ymlj8PXCPXpp2KCHZw1geklF2SS564vEbyHUZGms_0rPDXw4CLhpPV-YpQiBux9xzWkq3Wns3mPHA7-FeAaYRRD6tugL4jxsQuY4SW1",
+          "supplier": "nuitee",
+          "supplierId": 2,
+          "rates": [
+            {
+              "rateId": "I42FUVCPJZFFQR2BGNCEWTS2KNDVSNCUJVNFEWCHJFNEOR2NKJIUOWJSIRGVUUSYI5KTGRCFJZKEIR2ZGJKEKTKCK5DUSM2EJNHFEVKQKFMVGR2NKJIUOSJTIRBU2USSJBBDMRCFJVBFGR2ZLFKEKTKSKFIFEU2XGRMDEVSLJY3EMS2RJQ2ESVSLKZCTOQSTJFCVSRKHG5BFKR2VLJCFGN2EJJFUEVCWJNJUINCHIUZVIU2OIJNEQRKZKRGU2QSYI5MVURCBGIZVKTKKKZJUOTKSKNDVKM2EJFHFUWSFJVMVIRKOIJMEMVK2IRCU4SSXI5ITGVCTG5BU6S2KIRCTIN2CKNDUCWSEJVGUUUSHIUZUIRKNLJIUOQRWIRBTOQ2TI5CVSRCBJVBUGSCFGRKEWVCSKFFVKMSILFGVEU2HKFMUIT2JGJBUSSKSKU2FKU2HJJMVEVCFJVBFGR2ZK5KEGTKKJZDUKM2DIFGVEVCIJFMUIQKJLF6DEMRUFYYDO7D4IJEXY7D4PRJVKUCFKJEU6URMEBCE6VKCJRCSAQSFIR6DALRQGB6DALRQGB6HYMBOGAYHYMBOGAYA",
+              "occupancyNumber": 1,
+              "name": "SUPERIOR, DOUBLE BED",
+              "maxOccupancy": 2,
+              "adultCount": 2,
+              "childCount": 0,
+              "childrenAges": [],
+              "boardType": "BI",
+              "boardName": "Breakfast Included",
+              "remarks": "",
+              "priceType": "commission",
+              "commission": [
+                {
+                  "amount": 0,
+                  "currency": "EUR"
+                }
+              ],
+              "retailRate": {
+                "total": [
+                  {
+                    "amount": 224.07,
+                    "currency": "EUR"
+                  }
+                ],
+                "suggestedSellingPrice": [
+                  {
+                    "amount": 225.42,
+                    "currency": "EUR",
+                    "source": "providerDirect"
+                  }
+                ],
+                "initialPrice": [
+                  {
+                    "amount": 224.07,
+                    "currency": "EUR"
+                  }
+                ],
+                "taxesAndFees": [
+                  {
+                    "included": true,
+                    "description": "VAT",
+                    "amount": 20.37,
+                    "currency": "EUR"
+                  },
+                  {
+                    "included": false,
+                    "description": "City tax",
+                    "amount": 31.35,
+                    "currency": "EUR"
+                  }
+                ]
+              },
+              "cancellationPolicies": {
+                "cancelPolicyInfos": [],
+                "hotelRemarks": [],
+                "refundableTag": "NRFN"
+              },
+              "paymentTypes": [
+                "NUITEE_PAY"
+              ],
+              "providerCommission": {
+                "amount": 0,
+                "currency": ""
+              },
+              "perks": [],
+              "promotions": null
+            }
+          ],
+          "offerRetailRate": {
+            "amount": 224.07,
+            "currency": "EUR"
+          },
+          "suggestedSellingPrice": {
+            "amount": 225.42,
+            "currency": "EUR",
+            "source": "providerDirect"
+          },
+          "offerInitialPrice": {
+            "amount": 224.07,
+            "currency": "EUR"
+          },
+          "priceType": "commission",
+          "rateType": "standard",
+          "paymentTypes": [
+            "NUITEE_PAY"
+          ],
+          "paymentSchedule": "now"
+        },
+        {
+          "roomTypeId": "GEZDINZNGIZDKNRUG44XYUSGJZ6DEMBSGYYTEMJXGA4DAMD4GJ6FEMJQGAYEEOJZGVHDAVJUPQZDENJRGY",
+          "offerId": "AwJ2MQAAAABq_rd-CmwfW-TWJVTE7R_pqUBKeEomnAXT2UbQHJI-_zF1BM8aBW_ViqJOzVy0caShQhUOns7K99mB7N-4DKYBbXS9GRZACn0vaVoQL9beDly9m_EVr89N6IBBB88KnARD-dqnMg2sL3xhKwdCAji5Hg26QL9MoX1TMW8bekfYoWOyUUaAydPX_4h0RxMRdqKpXQ6JSz5CDb1fOxakbyNPB_cGBpfgPXko6GBc-95a4E86XfzH-ABnwOIdqs9yPSS9_LRHzh0CAOPqH63K2fsOZFoEcWfpA2IXMVyx55nO53mfGEauID3Z104v8vaI38ykbV4pClpg3SjFHCVGKXbyaumP8HNOzhofMtOdw0GnG4m7TwI0AWhvbyJMkNOaIgkVoQpu4fAq8Ud6XDZVGDJvGXqdVo_Q3w0vk_EJqp1jQim-vHJDuito4kxaDi0yR7OeHflSibbYFx-zmOf-CLyDGOVUUdGUnwcA9ApRm_TpbfU3cSzK4hmVT3UpUzp_ndV2MVpN3rAoKCWGXRVIKcsZYS6v8g_tD1as5K-SWrwjsJvN1_PjTA8ztcNmOFMlZAiLBFb4b7S0UIFtFnzDUZxelA4tT4hv5U1YlUK3QWeXEvyOplMk6cI3Im0Gqsv5KCFf1KKfV2hzB-X_MnROvqZnx1fYwyzWpTtT6WDtxyM0u1c9tJhixhZvk39DR5fMT6sRXoOTBmmaQxtO4OIwfcCaBM-7wfsHw3lM7qAcFi-hmT-07tNPcKEoF8NRXGQmDiWDl9IgDLcizwlL9lHFLMDRaXOt707Ex4bCYRpExSA1jE4PdQ4IxBI6BvSYH2QuGwJ9dWKoUIRnkh_hIE68xh7RzMQ6MaPNsAmTHngoPvA-RtAQRC2oK6CB_RwmNeMTneUTQ8eGBahV7pPMO412TpSTqa2DNNiPWrrm5BOtJC_5IBXvpGljCzCtstWSdRtBb7qJaAhy-oDQ0_vlnud9NYn4KtvicXZPd8rIB7NWjKz0zgNfm96Wl_9xsD_FhJXb1uIKY7FhKh4nX3qjh-Fu6jY3Byw67sHYCwAz1o_dWd4Q28TCb-N-IvaEGlVZufk16r-JN_CkIUBvjQ_6rq7_1INOp33XG2yvTQRGVTUAvGPpkN1n--2usju0EJkgSnxpgLxIxi69RKb3Gf887HiHDqzxBljDVeNBHAU8HesEpnG8XCb03asOojJuf3ciNGxbwwi9XgPDK_Tas4oN9He_yuM=",
+          "supplier": "nuitee",
+          "supplierId": 2,
+          "rates": [
+            {
+              "rateId": "I42FUVCPJZFFQR2BGNCEWTS2KNDVSNCUJVNFEWCHJFNEOR2NKJIUOWJSIRGVUUSYI5KTGRCFJZKEIR2ZGJKEKTKCK5DUSM2EJNHFEVKQKFMVGR2NKJIUOSJTIRBU2USSJBBDMRCFJVBFGR2ZLFKEKTKSKFIFEU2XGRMDEVSLJY3EMS2RJQ2ESVSLKZCTOQSTJFCVSRKHG5BFKR2VLJCFGN2EJJFUEVCWJNJUINCHIUZVIU2OIJNEQRKZKRGU2QSYI5MVURCBGIZVKTKKKZJUOTKSKNDVKM2EJFHFUWSFJVMVIRKOIJMEMVK2IRCU4SSXI5ITGVCTG5BVGSK2JBEFSTKSKFDUSM2EINGVEUSHGRMUIUKNIJIVAUK2JBMVKUSSI5AVSRCBKFJFUSCFGJKTITKDKZDVENSEIVGVEVSHIUZUGR2RKNBUKTSKIVGVIUSEI5EVSRCFJZJE4R2FLJBTETKKLBCUCWKEKFHVEUKHIFJFC7BSGI2S4MJWPQZDAMRWFUYTELJRG4QDAOB2GAYDUMBQPRBES7D4PR6FGVKQIVJEST2SFQQEIT2VIJGEKICCIVCHYMBOGAYHYMBOGAYHY7BQFYYDA7BQFYYDA",
+              "occupancyNumber": 1,
+              "name": "SUPERIOR, DOUBLE BED",
+              "maxOccupancy": 2,
+              "adultCount": 2,
+              "childCount": 0,
+              "childrenAges": [],
+              "boardType": "BI",
+              "boardName": "Breakfast Included",
+              "remarks": "",
+              "priceType": "commission",
+              "commission": [
+                {
+                  "amount": 0,
+                  "currency": "EUR"
+                }
+              ],
+              "retailRate": {
+                "total": [
+                  {
+                    "amount": 225.16,
+                    "currency": "EUR"
+                  }
+                ],
+                "suggestedSellingPrice": [
+                  {
+                    "amount": 226.52,
+                    "currency": "EUR",
+                    "source": "providerDirect"
+                  }
+                ],
+                "initialPrice": [
+                  {
+                    "amount": 225.16,
+                    "currency": "EUR"
+                  }
+                ],
+                "taxesAndFees": [
+                  {
+                    "included": true,
+                    "description": "VAT",
+                    "amount": 20.47,
+                    "currency": "EUR"
+                  },
+                  {
+                    "included": false,
+                    "description": "City tax",
+                    "amount": 31.35,
+                    "currency": "EUR"
+                  }
+                ]
+              },
+              "cancellationPolicies": {
+                "cancelPolicyInfos": [
+                  {
+                    "cancelTime": "2026-12-17 08:00:00",
+                    "amount": 112.58,
+                    "currency": "EUR",
+                    "type": "amount",
+                    "timezone": "GMT"
+                  }
+                ],
+                "hotelRemarks": [],
+                "refundableTag": "RFN"
+              },
+              "paymentTypes": [
+                "NUITEE_PAY"
+              ],
+              "providerCommission": {
+                "amount": 0,
+                "currency": ""
+              },
+              "perks": [],
+              "promotions": null
+            }
+          ],
+          "offerRetailRate": {
+            "amount": 225.16,
+            "currency": "EUR"
+          },
+          "suggestedSellingPrice": {
+            "amount": 226.52,
+            "currency": "EUR",
+            "source": "providerDirect"
+          },
+          "offerInitialPrice": {
+            "amount": 225.16,
+            "currency": "EUR"
+          },
+          "priceType": "commission",
+          "rateType": "standard",
+          "paymentTypes": [
+            "NUITEE_PAY"
+          ],
+          "paymentSchedule": "now"
+        }
+      ],
+      "et": 10800
+    },
+    {
+      "hotelId": "lp90f44",
+      "roomTypes": [
+        {
+          "roomTypeId": "GIYDSMRNGU4TGNZTGJ6E4USGJZ6DEMBSGYYTCMJXGA4DKOL4GF6FEMJQGU4HYMRWGMYDQ",
+          "offerId": "AwJ2MQAAAABq_rd-SbFQBuX3wMhJnN3TytJzSwqGN7UkaHWj7LxLPfjZc6BqUKUdDovxunqp_qOF4aoxhXemMLz-3HGuxOI4ZDljtqapfzZH46UVKnyprj5ufNWTX5l1wZwjwkJz_Onh7PrZM1Am3Pxx15yQkZqCtXIl6DvZEvoKYMbP5tFhXMJZa-ylDvyQ7EFORVgiHnyV4MHNb14qv6pPjhksDH9Ku_Zvq8pgb0Q3PGZjug8fGwCTf1N9Z5ZMcbAxELQdpd7MJPfNgDIPav_aa-HLNeqbta9nbnNT1Lo98oVa1fW678GDoxE7KkNWzIENBcJs_3w40gau0FSKbu0TLnrdwX-tUI3nmGinhUg8oWZ2xg32kKbMEV3YhGvDeK4oqX2A1thm3jzhhmZqfFpcVzb-X_yXjWDE3CEULedWWf1zx-fZZA8FSpJjkHHRfjvzqWaZG-BPby2JOeHI8o7Ccoqd0ndiSayfPMR8IjYjcOYvHe4FUAJC6r1aP8yE5RunTPSIfvZSnSGmt9JZSH9AO7AokKbClMAnY_r8u8VqiPopSv_h4k82GP3BZ1qHa3mYci0TUs7Wa0uDTWxVkMDDwYWZNHdiQfnxjTQzzI4BSyQ2h76-wHE_T7IhbZLHWkFiUdkaGCrzMpabg_wPAIF04Qg2pyrxdRFPYbOmjAmUi3qW6ENRX6eL9IRVQKxwGQBRrmgTfKYKG9Ur_Vr7kMtSPya2zUhOcBALRTIfn6qtQdvuPVH9SotVi7EhYUoEn1eD6oirSp_KCFbYtbdvoNkNu6d8u9XPn9B3Nuf6kopWYkk6U3Qv9EWp7G122wfaQfnxIiyeEw3xugxmJRHlENzY474kIQ2TqtxajNL4hEUTbuxIdl9HSNE_mlR1DKk9VQSNcD1epr_yWuVQTBMOVdzX5XsFnul4bKZQHgUo__J2aZ7IKZ3HYBhGIcLK-pZGIXM7POY0stnBiv_guGfPvkj487gdSfFO4bc13RtNMG3x3LK2WfXqumuE83sOq3FZ1M7kxKTiVEO1egBkFRczst5d8lzaEd26AOE=",
+          "supplier": "nuitee",
+          "supplierId": 2,
+          "rates": [
+            {
+              "rateId": "I42FUVCPJZBFOR2FGNDUWTSSKVDVSWKUJ5GVEV2HKI3EIQ2JLJJUOQK2IRGU2SSTI5CTISCZJVJFCR2JGNCEGTKSKNDUENSHJMZVGN2LKZFFQWKWJNBFAUSDKZFVKVBUI5FECVCBKEZTIR2RGJKEKT2MGRHEMSKHJ5LEWSKQKFMVIT2PJJKUQRJUKRBU4USRI42DGRCFJVCEYT2SKJDVOSK2KZEEKWSUJ5GVUU2FJVNEIQKPJJJUMVJSKRJU2WSYI5GVUSCZKRJVGSK2JBEFSTKSKFDUSM2EINGUUUSHGRMUIUKOJJNFAUKZLBMVKUSSI5ATEVCRG5BFGR2ZLJKECT2CIRFUUSCTI5KFGU2JLJEEGR2NKJIUOSJTIMZE2SSSIZKVSVCPJFBFCSCBGVCEWT2KIR6DENRTFYYDQ7D4KJHXY7D4PRJXIYLOMRQXEZD4GAXDAMD4GAXDAMD4PQYC4MBQPQYC4MBQ",
+              "occupancyNumber": 1,
+              "name": "Standard",
+              "maxOccupancy": 2,
+              "adultCount": 2,
+              "childCount": 0,
+              "childrenAges": [],
+              "boardType": "RO",
+              "boardName": "Room Only",
+              "remarks": "",
+              "priceType": "commission",
+              "commission": [
+                {
+                  "amount": 0,
+                  "currency": "EUR"
+                }
+              ],
+              "retailRate": {
+                "total": [
+                  {
+                    "amount": 263.08,
+                    "currency": "EUR"
+                  }
+                ],
+                "suggestedSellingPrice": [
+                  {
+                    "amount": 278.34,
+                    "currency": "EUR",
+                    "source": "providerDirect"
+                  }
+                ],
+                "initialPrice": [
+                  {
+                    "amount": 263.08,
+                    "currency": "EUR"
+                  }
+                ],
+                "taxesAndFees": [
+                  {
+                    "included": true,
+                    "description": "VAT",
+                    "amount": 23.92,
+                    "currency": "EUR"
+                  },
+                  {
+                    "included": false,
+                    "description": "City tax",
+                    "amount": 37.83,
+                    "currency": "EUR"
+                  }
+                ]
+              },
+              "cancellationPolicies": {
+                "cancelPolicyInfos": [],
+                "hotelRemarks": [],
+                "refundableTag": "NRFN"
+              },
+              "paymentTypes": [
+                "NUITEE_PAY"
+              ],
+              "providerCommission": {
+                "amount": 0,
+                "currency": ""
+              },
+              "perks": [],
+              "promotions": null
+            }
+          ],
+          "offerRetailRate": {
+            "amount": 263.08,
+            "currency": "EUR"
+          },
+          "suggestedSellingPrice": {
+            "amount": 278.33,
+            "currency": "EUR",
+            "source": "providerDirect"
+          },
+          "offerInitialPrice": {
+            "amount": 263.08,
+            "currency": "EUR"
+          },
+          "priceType": "commission",
+          "rateType": "package",
+          "paymentTypes": [
+            "NUITEE_PAY"
+          ],
+          "paymentSchedule": "now"
+        },
+        {
+          "roomTypeId": "GY3DSLJVHEZTOMZSPRHFERSOPQZDAMRWGEYTCNRRGAYDA7BRPRJDCMBRGJ6DENZUGYZA",
+          "offerId": "AwJ2MQAAAABq_rd-IqwTkJHaEh_Ntt6XJbnKDcOCHhQ11X1uLNihPAWsWJ3kX1iI9Pj9H6G8v3MCe-oAHvRxa3Ya0v2JnlB8l7Z9aeHh_VUqo_Jgxh80XkljQ9Xqy-NV7hUZXY-ymLeA2UqN7OE5wIR6zQA_Bbs931pxek326KG3EwyOAuHm7m44R4Y0YEq827rKcmqG1mwroHHEFEDKvo--itfGcs1zm2OT8MVDPjtcunRzoGIKO7OiXiJ7NFaZQv8f9fHTqbOKtoF6OeGWyWj34AfUIqOMCwLTJeExqxY0-GZJSfWkMfH7X0umdPEFQdDAPAmL3KIUFwdjmxfDBbobfM1G7loxsZz0RMdjltPRVGEVDrkbYwoh7byfRjGmDRVwmJakvkPCbf5ogPyX8oJzuT9WdTqNrDNnmlK7cXAKlFTFnQp8F7c0t63lom9OMRGK-QWc6345MLEpsqF5WIuhnMHCao0ujO7F2-ZEPi_8vOTHuR6drU3zln4YsdEsmPzv_b2p02UafYs54la-NnnOTRvLXNxePfiCM564Ejiype12Q0yk1D1JyYjkApb6O6LXDgRlCARTa1OtGqK3J2JU_yF74nC_BNoF2_u2rHVjYODugONX0a6AMcLX3MA5h0afaQD5KJafMGEjpqwdN9fBHlM7pcEBxW8X9TzF5a5sbIT6wbs2TkiRx5Ko83mZ5KTHQY_gT-rMAzRiuakdMa73r2KfVa2d4XWGvYaKp0WzVGNOaiN1-IHgQPis-ze_yn7gMAyr0q8WOAPFPh6cBo03jLtc9XDt02qnIfdp76hMjtAIt-2jRA3OKwGTfQRYKv6l6461H02ZY78DI8iMPX3zUFNyhDAcJn5MB2BMF8S-1qsKHDus7b0T9_IWf76SCwTf9i4m7unltch6dhsKQ5x03O4eLPUsOxOI6TFQ0n77DpLJTtH7NJ_Dg2EDRoBYFwpNN_9Pd7rw7doFzyxVZ50DbYIbbrlxM4Ttz8O0to2lSoxCLVbMZFJAIe5qthXuynbFSClDSjGjeNWewhlRU6_FbssA85WB3Vie3JjDg3KMLc12D-DqH12O9aRCEbY40H59BA==",
+          "supplier": "nuitee",
+          "supplierId": 2,
+          "rates": [
+            {
+              "rateId": "I42FUVCPJZBFOR2FGNDUWTSSKVDVSWKUJ5GVEV2HKFNEIQKOLJJUOWSUIRGVUUSXJVJDMRCDJFNFGR2BLJCE2TKKKNDUKNCILFGVEUKHJEZUIQ2NKJJUOQRWI5FTGUZXJNLEUWCZKZFUEUCSINLEWVKUGRDUUQKUIFITGNCHKEZFIRKPJQ2E4RSJI5HVMS2JKBIVSVCPJ5FFKSCFGRKEGTSSKFDTIM2EIVGUITCPKJJEOV2JLJLEQRK2KRHU2WSTIVGTGRCNJ5FE4R2VGRKEOTS2KRDUUNSFGRKVGR2KLI3EIRKNIJJUOWKZKRBU2SSXI5CVSRCBJVCDIR2GGZDEKTKKKFDUKWSILFGVEWCHKEZUIRKJGJJUUNCSKU2FKU2HJJMVEVCFJVBFGR2ZK5KEGTKKJZDUKM2DIFGUUUKIJFMUIQKJLF6DENZUFY3DE7D4KJHXY7D4PRJXIYLOMRQXEZBAKJXW63L4GAXDAMD4GAXDAMD4PQYC4MBQPQYC4MBQ",
+              "occupancyNumber": 1,
+              "name": "Standard Room",
+              "maxOccupancy": 2,
+              "adultCount": 2,
+              "childCount": 0,
+              "childrenAges": [],
+              "boardType": "RO",
+              "boardName": "Room Only",
+              "remarks": "",
+              "priceType": "commission",
+              "commission": [
+                {
+                  "amount": 0,
+                  "currency": "EUR"
+                }
+              ],
+              "retailRate": {
+                "total": [
+                  {
+                    "amount": 274.62,
+                    "currency": "EUR"
+                  }
+                ],
+                "suggestedSellingPrice": [
+                  {
+                    "amount": 278.19,
+                    "currency": "EUR",
+                    "source": "providerDirect"
+                  }
+                ],
+                "initialPrice": [
+                  {
+                    "amount": 274.62,
+                    "currency": "EUR"
+                  }
+                ],
+                "taxesAndFees": [
+                  {
+                    "included": false,
+                    "description": "City Tax",
+                    "amount": 33.61,
+                    "currency": "EUR"
+                  },
+                  {
+                    "included": true,
+                    "description": "Sales tax",
+                    "amount": 24.96,
+                    "currency": "EUR"
+                  }
+                ]
+              },
+              "cancellationPolicies": {
+                "cancelPolicyInfos": [],
+                "hotelRemarks": [],
+                "refundableTag": "NRFN"
+              },
+              "paymentTypes": [
+                "NUITEE_PAY"
+              ],
+              "providerCommission": {
+                "amount": 0,
+                "currency": ""
+              },
+              "perks": [],
+              "promotions": null
+            }
+          ],
+          "offerRetailRate": {
+            "amount": 274.62,
+            "currency": "EUR"
+          },
+          "suggestedSellingPrice": {
+            "amount": 278.19,
+            "currency": "EUR",
+            "source": "providerDirect"
+          },
+          "offerInitialPrice": {
+            "amount": 274.62,
+            "currency": "EUR"
+          },
+          "priceType": "commission",
+          "rateType": "package",
+          "paymentTypes": [
+            "NUITEE_PAY"
+          ],
+          "paymentSchedule": "now"
+        },
+        {
+          "roomTypeId": "GIYDSMRNGU4TGNZTGJ6FERSOPQZDAMRWGEZDCNRSGIYDA7BSPRJDCMBVHB6DENZWHE2A",
+          "offerId": "AwJ2MQAAAABq_rd-6MU6DpDwDTnsOxL0H5sVjOlVrC1-u_-qVAyzzJqteZ_WjxYawCDu_KnpYBNQqezibfbak13tKJoda6PTZP8KYDXYhYq6d0QvvmkantgFCEnPwKuL3GP9L0EEWbx26VxDe33OJAb9ecRfjj1_ftxGpFjmwaca1sy0_mssHWDyLu-8tAEinA5m7DywejBfS-Wblm8c6w5my9N6xLHhkP5evdVmRwMxRf9So0yWQDLGhEDnDGYDSJXCAIrNVLYmWNzFOHdyf5OSYzxh3DekenOvZp3xVxz94biLnd-Ui8YwpKs4V45CFlk5NyXQUoqNTh0rHFjHc4OH-QJqL_DWIwrXWkbduWdKfyB3We_yHPOZNPoemmrDGWPmnJTVip5hxANiupgTpfQn5l9auRhJPyIn8L_Th8KcYNxX4wWJU2o_uJshq8Xp1y9UCkaHOyI24cRrKlqQlZsi0NrtEHzrMqytinqXyG70KPUn95VGS1obZCJsyCI2BEHedHjSkd3qzmY3q7F1yaoPy7YBS9Srt6m2_91qIwzg6c4ZLUNkBLycYK8QDWB7g_CgO6JAVixx-Nhmj5JvrL0H12XwvJoyN4fsU5oKeMB7Fuhq6n-zL-HsjszLHau9WQBLU-HrWb8I3bjW67zYxVE3oq8qAXI-1AvWI15tR_HCg7EkKtK2M89k9eXvA7OtpIY9kJRuunPljU_j9-LzEtWydOLGhQTuQgtj6z0vrOtUGbVI0tXdjvbzkRTFipW1aINYDxRW4LenIVJyqba5xr9F6sPUfyiaMHNnn1kYoxkPLd8zLKyU0disqrRyFpuPAYLXZ_QbsUf0oZCkfR_8c85mh4yocce6448zFrEI9syH8TOwq3SxmF-aEfnrglsqMlLr-Xl9olgdktuPE_tEt5AJxHGmblwWxUniDZb8Rwd__sOcquu8GglBy_57Kl-1Cah7AbMK2-h_JOzUOJDLtwlNYrERj4bbpJe-va-1hfq8CQxfrvepbVVnx-59d8fBMoXsLQgyFcxwRpmiEKlRCvGvQmYSf53056K_ZwjiBPIl2IYdCBx6yfI978afLbq8FFb2M2H95mlp_ahmPqeug0jOVaxJofpHPoHWf7FMN_bHGXErEaHlQCnJxSHv3XohvSFUCeD701gJx7AlAimTvwyfePEnvO9nE4SfUMX3zIYJssCk2idYVMbeHvzXy5srU_nHYO7bUUH8",
+          "supplier": "nuitee",
+          "supplierId": 2,
+          "rates": [
+            {
+              "rateId": "I42FUVCPJZBFOR2FGNDUWTSSKVDVSWKUJ5GVEV2HKI3EIQ2JLJJUOQK2IRGU2SSTI5CTISCZJVJFCR2JGNCEGTKSKNDUENSHJMZVGN2LKZFFQWKWJNBFAUSDKZFVKVBUI5FECVCBKEZTIR2RGJKEKT2MGRHEMSKHJ5LEWSKQKFMVIT2PJJKUQRJUKRBU4USRI42DGRCFJVCEYT2SKJDVOSK2KZEEKWSUJ5GVUU2FJVNEIQKPJJJUMVJSKRJU2WSYI5GVUSCZKVJUOSS2GZCEKTKCKNDVSWKUIVGUUV2HJFNEIQKNIQ2EOSRWIZCU2SSRI5KTISCZJVJFQR2ZGRKESSJSKNFDIUSWIVJFGT2FJVNEIQKNKJLUMVKZKRCUYSSSI5MVCRCFJVJDER2BLFBUO7BSG43C4OJUPQZDAMRWFUYTELJRHAQDAOB2GAYDUMBQPRJE67D4PR6FG5DBNZSGC4TEPQYC4MBQPQYC4MBQPR6DALRQGB6DALRQGA",
+              "occupancyNumber": 1,
+              "name": "Standard",
+              "maxOccupancy": 2,
+              "adultCount": 2,
+              "childCount": 0,
+              "childrenAges": [],
+              "boardType": "RO",
+              "boardName": "Room Only",
+              "remarks": "",
+              "priceType": "commission",
+              "commission": [
+                {
+                  "amount": 0,
+                  "currency": "EUR"
+                }
+              ],
+              "retailRate": {
+                "total": [
+                  {
+                    "amount": 276.94,
+                    "currency": "EUR"
+                  }
+                ],
+                "suggestedSellingPrice": [
+                  {
+                    "amount": 293,
+                    "currency": "EUR",
+                    "source": "providerDirect"
+                  }
+                ],
+                "initialPrice": [
+                  {
+                    "amount": 276.94,
+                    "currency": "EUR"
+                  }
+                ],
+                "taxesAndFees": [
+                  {
+                    "included": true,
+                    "description": "VAT",
+                    "amount": 25.18,
+                    "currency": "EUR"
+                  },
+                  {
+                    "included": false,
+                    "description": "City tax",
+                    "amount": 37.83,
+                    "currency": "EUR"
+                  }
+                ]
+              },
+              "cancellationPolicies": {
+                "cancelPolicyInfos": [
+                  {
+                    "cancelTime": "2026-12-16 22:00:00",
+                    "amount": 138.47,
+                    "currency": "EUR",
+                    "type": "amount",
+                    "timezone": "GMT"
+                  },
+                  {
+                    "cancelTime": "2026-12-18 08:00:00",
+                    "amount": 276.94,
+                    "currency": "EUR",
+                    "type": "amount",
+                    "timezone": "GMT"
+                  }
+                ],
+                "hotelRemarks": [],
+                "refundableTag": "RFN"
+              },
+              "paymentTypes": [
+                "NUITEE_PAY"
+              ],
+              "providerCommission": {
+                "amount": 0,
+                "currency": ""
+              },
+              "perks": [],
+              "promotions": null
+            }
+          ],
+          "offerRetailRate": {
+            "amount": 276.94,
+            "currency": "EUR"
+          },
+          "suggestedSellingPrice": {
+            "amount": 293,
+            "currency": "EUR",
+            "source": "providerDirect"
+          },
+          "offerInitialPrice": {
+            "amount": 276.94,
+            "currency": "EUR"
+          },
+          "priceType": "commission",
+          "rateType": "package",
+          "paymentTypes": [
+            "NUITEE_PAY"
+          ],
+          "paymentSchedule": "now"
+        }
+      ],
+      "et": 10800
+    }
+  ],
+  "guestLevel": 0,
+  "sandbox": true
+}

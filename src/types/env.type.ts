@@ -6,4 +6,17 @@ export type EnvConfig = {
     APPLICATION_SECRET: string;
     APPLICATION_URL: string;
     DOCS_PASSWORD: string | undefined;
+    FRONTEND_URL: string;
+    LITEAPI_API_KEY: string;
+    LITEAPI_DATA_URL: string;
+    LITEAPI_BOOK_URL: string;
+    LITEAPI_CURRENCY: string;
+    LITEAPI_GUEST_NATIONALITY: string;
+    GCP_PROJECT_ID: string | undefined;
+    AI_MODEL: string;
+    AI_LOCATION: string;
+    AI_DAILY_LIMIT: number;
+    AI_GLOBAL_DAILY_LIMIT: number;
+    AI_TIMEOUT_MS: number;
+    TRUST_PROXY_HOPS: number;
 };

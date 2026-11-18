@@ -1,0 +1,101 @@
+{
+  "_status": 200,
+  "data": {
+    "prebookId": "EBuls8BUG",
+    "offerId": "AwJ2MQAAAABq_reLCPNVjedNoWTxj8Zupj9l_9oYI71bRqbBXP6j7W-f4pMlnmQLXfF-1gz5hMGskfGvfmpCth8LC9YcvaUL9Ekb2vRteCuLJ3my8pru42zJcHJl7BGkkJ8qVkBWSHI8zUGDrK2ljROZloxFrloil1WmGs8mgF-BDYGPv5IvvNunKqPxK0CYmz5M0Mv-4opSFqgdJgtaqwc_EMpmdqF6WNfpQgDb01dm1uuD0-JNo1NQyjl_TxJI2Ltuqv7b2WitF4oRYV9CsEyQKJnrM7FQqe5MfKXN7dH3kZRYCXmNcAJ_AjTEaAZwjqmvN1IeH-zfKutqI3npHyw87XQL6YwVJncA7R_IhTAG2GW9OQHYkMGSPPH2PjvMn89o4rPRbL2s-2mtuCSwqlf6TCrR7xj1XfdnjRmDI4jslaINT8gH8opphDojpmZg4RBdnEJwIvee7ZQP_C_2r4l8f73slbm-dTdLTFvqNU9derf7rIiIfa_Azc5QUcK7aZzcIYNPJf0Hgcj3AXOojFA9VRsJtOVrPi5BSjdHscSnDOrOX6GucTB4h4obd7-J5m_4bR6mysFiwvOQflnh4WNiBMF6wYNpv4zn-ZYnLFrKCpunwziAE80fs3sOd5QT9vlquiPUJuC3iSGTiJ29tZMp3LDoCBSKItKtaH8mgKKBli4ij-_hzNcivvaqArTQgTxyMI5hmaQxW2HomrEPMaiP6Q1mnTbWPE3w3t1FtAEKPqN9n_ODGLjzcfmZ80hcm5AkK5UySw6Bg9_dWY2-9fa79aYeY3lb5EVJvM9rU3S8DQlek3nw6hoqGNuuPsEwDs-Mm1Irb5ymIcJJhffgMYcrDrWC1dUEIEdwpDEESDKeT-gRCOIFTGz_kiU2jxjjwG7B6Ln8_-x3a-Ze001w4RFYz8kwuN_8EhmiKJ-Iub5itctAQFB5QC3ddNbhmnAlTk-Zei5mIo2l0fAqvAa4OVWrYIfxPL4RC-RGigYvOdcFVtfGS3pyoRKbPp1lQEtYSTWTqf2HJ2G74szcY4wX8Rly8X2G1DUo2pZgNcBhN9qDQJztcde8AruyT7asmmSpSKH3PXBhXVCAcz5tSE-AqXIDL9IUi7IkuAMse9UDW6YGvJ8RFMf_UgmLQw1fwA==",
+    "hotelId": "lp1db88",
+    "currency": "EUR",
+    "termsAndConditions": "",
+    "roomTypes": [
+      {
+        "rates": [
+          {
+            "rateId": "I5MTIVCNLJFFOTKVGNKEOTSSLJDVSMSEJVHEUU2HIEZVIRKOKRDUOWSUIRGVURBUI5CVEVCFJVBFGR2ZLFKEKTKKLFIFCWSEIFGVEV2HIVNEIRKNIQ2E2VSYIY3FMS2UKBJEWVKDG5BUMS2WJJEFSTKTIJDUEQSYLFHEEVSHJE2FQWJSJNIU2NKLKVITOQSSI42DIVCJJ5FFUR2FGNCEKTKCKZEEKM2GIEZDEMSNIVJFIQ2NKJJEONC2KRGUSWSSI5IVUVCBJRFFER2JLFKE6TK2K5IFESSFJVKFINCHJFMUIRKOKJJEOSKZKRAU2SSRI5AVSSCZJVKDIS2JLFKECTSKKNIFCWSEI5HFEWKIIVJFMRKULJCEWSSEIU2ESWSTI5AVURCNJRFFER2JK5KEGTKCIFDUKWKEKVGUEUKFJV6DEMZWFY4DS7BSGAZDMLJRGIWTCMBAGEYDUMBQHIYDA7CSJ56HY7D4JFHE4U2JIRCSAUSPJ5GXYMBOGAYHYMBOGAYHY7BQFYYDA7BQFYYDA",
+            "occupancyNumber": 1,
+            "name": "INNSIDE ROOM",
+            "maxOccupancy": 2,
+            "adultCount": 2,
+            "childCount": 0,
+            "childrenAges": [],
+            "boardType": "RO",
+            "boardName": "Room Only",
+            "remarks": "",
+            "priceType": "commission",
+            "commission": [
+              {
+                "amount": 0,
+                "currency": "EUR"
+              }
+            ],
+            "retailRate": {
+              "total": [
+                {
+                  "amount": 236.89,
+                  "currency": "EUR"
+                }
+              ],
+              "suggestedSellingPrice": [
+                {
+                  "amount": 249.21,
+                  "currency": "EUR",
+                  "source": "providerDirect"
+                }
+              ],
+              "initialPrice": null,
+              "taxesAndFees": [
+                {
+                  "included": true,
+                  "description": "Value Added Tax",
+                  "amount": 43.07,
+                  "currency": "EUR"
+                }
+              ]
+            },
+            "cancellationPolicies": {
+              "cancelPolicyInfos": [
+                {
+                  "cancelTime": "2026-12-10 10:00:00",
+                  "amount": 118.44,
+                  "currency": "EUR",
+                  "type": "amount",
+                  "timezone": "GMT"
+                }
+              ],
+              "hotelRemarks": [],
+              "refundableTag": "RFN"
+            },
+            "paymentTypes": [
+              "NUITEE_PAY"
+            ],
+            "providerCommission": {
+              "amount": 0,
+              "currency": ""
+            },
+            "perks": [],
+            "promotions": null
+          }
+        ]
+      }
+    ],
+    "suggestedSellingPrice": 249.21,
+    "isPackageRate": true,
+    "commission": 0,
+    "price": 236.89,
+    "priceType": "commission",
+    "priceDifferencePercent": 0,
+    "cancellationChanged": false,
+    "boardChanged": false,
+    "supplier": "nuitee",
+    "supplierId": 2,
+    "paymentTypes": [
+      "NUITEE_PAY",
+      "ACC_CREDIT_CARD",
+      "WALLET"
+    ],
+    "checkin": "2026-12-18",
+    "checkout": "2026-12-20",
+    "sellingPriceToUser": 236.89
+  },
+  "guestLevel": 0,
+  "sandbox": true
+}

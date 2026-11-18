@@ -1,0 +1,37 @@
+{
+  "_status": 200,
+  "data": [
+    {
+      "placeId": "ChIJV5oQCXzdOkcR4ngjARfFI0I",
+      "displayName": "Lviv",
+      "formattedAddress": "Lviv Oblast, Ukraine",
+      "types": [
+        "political",
+        "geocode",
+        "locality"
+      ]
+    },
+    {
+      "placeId": "ChIJb5xjPmndOkcRYj26h4iMDWM",
+      "displayName": "Lviv Oblast",
+      "formattedAddress": "Ukraine",
+      "types": [
+        "political",
+        "administrative_area_level_1",
+        "geocode"
+      ]
+    },
+    {
+      "placeId": "ChIJn7K5Uzsd1YkRf-Msg5RcYkU",
+      "displayName": "LVIV Hall",
+      "formattedAddress": "Lviv Boulevard, Oshawa, ON, Canada",
+      "types": [
+        "establishment",
+        "event_venue",
+        "banquet_hall",
+        "point_of_interest"
+      ]
+    }
+  ],
+  "fromCache": true
+}

@@ -1,0 +1,60 @@
+{
+  "_status": 200,
+  "data": [
+    {
+      "placeId": "ChIJ5TCOcRaYpBIRCmZHTz37sEQ",
+      "displayName": "Barcelona",
+      "formattedAddress": "Spain",
+      "types": [
+        "political",
+        "geocode",
+        "locality"
+      ]
+    },
+    {
+      "placeId": "ChIJbzBx_z5yLYwRdZ6I7zy0_iI",
+      "displayName": "Barcelona",
+      "formattedAddress": "Anzoategui, Venezuela",
+      "types": [
+        "locality",
+        "geocode",
+        "political"
+      ]
+    },
+    {
+      "placeId": "ChIJpY58hGSepBIR15tv-0LpK_M",
+      "displayName": "Barcelona Airport (BCN)",
+      "formattedAddress": "El Prat de Llobregat, Spain",
+      "types": [
+        "point_of_interest",
+        "transportation_service",
+        "establishment",
+        "airport",
+        "international_airport"
+      ]
+    },
+    {
+      "placeId": "ChIJOVbP1ICYpBIRjxcPpUQtfDo",
+      "displayName": "Barcelona-Sants",
+      "formattedAddress": "Plaça dels Països Catalans, Barcelona, Spain",
+      "types": [
+        "point_of_interest",
+        "establishment",
+        "transportation_service",
+        "train_station",
+        "transit_station"
+      ]
+    },
+    {
+      "placeId": "ChIJZ-IWXQVYOI4RKPVtGiO13XQ",
+      "displayName": "Barcelona",
+      "formattedAddress": "Calarca, Quindio, Colombia",
+      "types": [
+        "political",
+        "geocode",
+        "locality"
+      ]
+    }
+  ],
+  "fromCache": true
+}

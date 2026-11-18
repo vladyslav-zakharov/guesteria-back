@@ -10,24 +10,130 @@ generator dbml {
   provider            = "prisma-dbml-generator"
   output              = "../dbml"
   outputName          = "schema.dbml"
-  projectName         = "Project Name"
+  projectName         = "Guesteria API"
   projectDatabaseType = "PostgreSQL"
   projectNote         = "ER Diagram"
 }
 
 datasource db {
-  provider = "postgresql"
-  url      = env("DATABASE_URL")
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
 }
 
-model Message {
-  id        Int      @id @default(autoincrement())
-  createdAt DateTime @default(now()) @map("created_at")
+enum BookingStatus {
+  CONFIRMED
+  CANCELLED
+}
 
-  text String
+enum ChatRole {
+  USER
+  ASSISTANT
+}
 
-  /// [MessageMeta]
-  meta Json?
+model User {
+  id           String   @id @default(uuid()) @db.Uuid
+  email        String   @unique
+  passwordHash String   @map("password_hash")
+  firstName    String   @map("first_name")
+  lastName     String   @map("last_name")
+  createdAt    DateTime @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt    DateTime @updatedAt @map("updated_at") @db.Timestamptz
 
-  @@map("messages")
+  prebooks     Prebook[]
+  bookings     Booking[]
+  chatMessages ChatMessage[]
+  aiUsages     AiUsage[]
+
+  @@map("users")
+}
+
+model Prebook {
+  id                   String    @id @default(uuid()) @db.Uuid
+  userId               String    @map("user_id") @db.Uuid
+  litePrebookId        String    @unique @map("lite_prebook_id")
+  offerId              String    @map("offer_id")
+  hotelId              String    @map("hotel_id")
+  hotelName            String    @map("hotel_name")
+  roomName             String    @map("room_name")
+  boardName            String    @map("board_name")
+  checkin              DateTime  @db.Date
+  checkout             DateTime  @db.Date
+  adults               Int
+  childrenAges         Int[]     @map("children_ages")
+  amount               Decimal   @db.Decimal(10, 2)
+  currency             String    @db.Char(3)
+  refundable           Boolean
+  cancellationDeadline DateTime? @map("cancellation_deadline") @db.Timestamptz
+  usedAt               DateTime? @map("used_at") @db.Timestamptz
+  createdAt            DateTime  @default(now()) @map("created_at") @db.Timestamptz
+
+  user    User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  booking Booking?
+
+  @@index([userId])
+  @@map("prebooks")
+}
+
+model Booking {
+  id                   String        @id @default(uuid()) @db.Uuid
+  userId               String        @map("user_id") @db.Uuid
+  prebookId            String        @unique @map("prebook_id") @db.Uuid
+  liteBookingId        String        @unique @map("lite_booking_id")
+  status               BookingStatus @default(CONFIRMED)
+  hotelId              String        @map("hotel_id")
+  hotelName            String        @map("hotel_name")
+  hotelPhotoUrl        String?       @map("hotel_photo_url")
+  hotelAddress         String        @map("hotel_address")
+  roomName             String        @map("room_name")
+  boardName            String        @map("board_name")
+  checkin              DateTime      @db.Date
+  checkout             DateTime      @db.Date
+  adults               Int
+  childrenAges         Int[]         @map("children_ages")
+  amount               Decimal       @db.Decimal(10, 2)
+  currency             String        @db.Char(3)
+  refundable           Boolean
+  cancellationDeadline DateTime?     @map("cancellation_deadline") @db.Timestamptz
+  guestFirstName       String        @map("guest_first_name")
+  guestLastName        String        @map("guest_last_name")
+  guestEmail           String        @map("guest_email")
+  guestPhone           String        @map("guest_phone")
+  specialRequests      String?       @map("special_requests")
+  createdAt            DateTime      @default(now()) @map("created_at") @db.Timestamptz
+  updatedAt            DateTime      @updatedAt @map("updated_at") @db.Timestamptz
+
+  user         User          @relation(fields: [userId], references: [id], onDelete: Cascade)
+  prebook      Prebook       @relation(fields: [prebookId], references: [id])
+  chatMessages ChatMessage[]
+
+  @@index([userId, checkin])
+  @@map("bookings")
+}
+
+model ChatMessage {
+  id        String   @id @default(uuid()) @db.Uuid
+  bookingId String   @map("booking_id") @db.Uuid
+  userId    String   @map("user_id") @db.Uuid
+  role      ChatRole
+  content   String   @db.Text
+  createdAt DateTime @default(now()) @map("created_at") @db.Timestamptz
+
+  booking Booking @relation(fields: [bookingId], references: [id], onDelete: Cascade)
+  user    User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([bookingId, createdAt])
+  @@map("chat_messages")
+}
+
+model AiUsage {
+  userId String   @map("user_id") @db.Uuid
+  day    DateTime @db.Date
+  count  Int      @default(0)
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@id([userId, day])
+  @@index([day])
+  @@map("ai_usages")
 }

@@ -1,0 +1,109 @@
+{
+  "_status": 200,
+  "data": {
+    "prebookId": "wjey_707S",
+    "offerId": "AwJ2MQAAAABq_t_k0EMcNhUfqaLpF77BcmrEeidTjvPFlcEXZEbkVi1ynNvWWuQQgefpxsepd7xF_QNGGnrcsQlWmVeDiP3NPLMSFGjLxZ8_XNoEPsWNOTbr4Qz7KtWV2oJGYvrMU6fejw8beDtvk5oC-02IzVkITA90k45wLOfeWurEAXNuIwEz3ylqs0d7imxLo4Yb35BzKFIjpHkUKFoeEgLNLiWikhK-Q8ZvPkisbXRp5MFwdXbZ40UoCARtF69zb8-tn2GsaBbdT05p4f236YRDltWrP4cNfEABbIz1E9vMAJH7Ugwzoc7QSASd_589RNWzdpyMoJawI98yduPdy5Pugg_gVeRVEPcOPy7jq2gis72hdKKwjs13b7RqJ6U7qXyzZMxD2JzX81ns2VOY386YLaAYbhS2ENuXGehusOpeAo7eMavQg2MHTTk9Av6XLOddpwfN-Himx28tIIDIvM-RyoRXLbq_ePWeeVZimMX1r_DnQWduqARrkWcOZFGSQg94IjoHko8DyN-dwUZrhxKyAtxnxxuNuAEGy8L04G1cZwbZNqPKpopcTXjk29zOeAD4MkTXdkjslY1vnIMvKDu5xU0cVttaNM7AjGXzMRsbpx9m5pBp_4vTaBYKoyOmaZ-YPjl1k6_2mZ834dYE7HpZVHOYu-aCP_oyk-bim97FMbQVQDSy8kc8puV3qIIANNhO5fPuTwWuOgDQrKBGZeIoLYe1BMZoQKM0OPgPgpdeFyxLbHpUcrBll7RjICyJ9w3X01a6FTgCokYFOd5cKJWHIbrTVvQWu4-IsZg6Vo22plxZyZtbyM2Rktppv2ciQbG_65eD_oFByJS4WG7kAwO4-UoXFBYc-cNJag_v7Yz2L8x2L74G2xlrB2nnGJ5QmO0xAdXsDnf-Y3l0pDzNFvpbMyEzjZPO2BErqFGzkHrLyWumww74FQ1hK7vIuTuFJPIs38JkJMy0LaiI7oXLi1dOabR_dheAvBHbI-yBh2A_C_BNrquaOuhBzQzY4P0avz27mZ7tttUc1EgeKVk00Pb4EhbOJyl-Cjp947TBzmPqJfuI7XFFUKNQBvNVEBpiX-ozH05y7gAYzMLnVaT_ezKcnPRqal5uwFt0DlP8UlTxk0ZYVzAWQDwi6kuv39ZF35GV40QC-t0nn6c=",
+    "hotelId": "lp3b26b",
+    "currency": "EUR",
+    "termsAndConditions": "",
+    "roomTypes": [
+      {
+        "rates": [
+          {
+            "rateId": "I42DERCPJZNFOSCFGNDUWTKSKFDUSNCEI5GVEU2HIEZUIRKOKJLEOWJSIRHU2WSTJBDDMRCDJFNFGR2BLJCE2TKKKNDUKNCILFGVEUKHJEZUIQ2NKJJUOQRWI5FTGUZXJNLEUWCZKZFUEUCSINLEWVKUGRDUMQKUINIVUWKQKEZEIS2NKJNFAUSVKZAVUMSWJJBDMRCDJZNFUR2VLFCECTKKLJDVKMSUIFGVEWKKJZGVQQ2SIJCEOSJSIRCU2USZI5GVEVCDJZBFIR2JK5KEKTSCKNDUSNCEI43UGU2JLJEEQWKNKJIUOSJTIRBU2USRI5GVSVCBJVBFCUCRLJEFSVKSKJDUKMSUIE3UEUSHLEZVIT2NLJCEWSSIKNDVKU2HJJMVEVCFJVBFGR2ZK5KEGTKSJZDUCWSTIFGUUUKIJFMUIQKJLF6DCNRXFY3TG7BSGAZDMLJRGIWTAMZAGEYDUMBQHIYDA7CSJ56HY7D4KR3WS3RAFAZCAYTFMRZSS7BQFYYDA7BQFYYDA7D4GAXDAMD4GAXDAMA",
+            "occupancyNumber": 1,
+            "name": "Twin (2 beds)",
+            "maxOccupancy": 2,
+            "adultCount": 1,
+            "childCount": 1,
+            "childrenAges": [
+              8
+            ],
+            "boardType": "RO",
+            "boardName": "Room Only",
+            "remarks": "<br/><br/>From 2026/01/01 to 2026/12/31: THE HOTEL CONSIDERS CHILDREN FROM 0 TO 11 YERAS OLD. FROM 12 YEARS WILL BE CONSIDERED ADULT<br/>Any cancellation with less than 14 day(s) before of the arrival of the client   the hotel will charge 100 % of the stay. <br/>",
+            "priceType": "commission",
+            "commission": [
+              {
+                "amount": 0,
+                "currency": "EUR"
+              }
+            ],
+            "retailRate": {
+              "total": [
+                {
+                  "amount": 167.73,
+                  "currency": "EUR"
+                }
+              ],
+              "suggestedSellingPrice": [
+                {
+                  "amount": 192.89,
+                  "currency": "EUR",
+                  "source": ""
+                }
+              ],
+              "initialPrice": null,
+              "taxesAndFees": [
+                {
+                  "included": true,
+                  "description": "VAT",
+                  "amount": 15.25,
+                  "currency": "EUR"
+                },
+                {
+                  "included": false,
+                  "description": "City tax",
+                  "amount": 15.77,
+                  "currency": "EUR"
+                }
+              ]
+            },
+            "cancellationPolicies": {
+              "cancelPolicyInfos": [
+                {
+                  "cancelTime": "2026-12-03 10:00:00",
+                  "amount": 167.73,
+                  "currency": "EUR",
+                  "type": "amount",
+                  "timezone": "GMT"
+                }
+              ],
+              "hotelRemarks": [],
+              "refundableTag": "RFN"
+            },
+            "paymentTypes": [
+              "NUITEE_PAY"
+            ],
+            "providerCommission": {
+              "amount": 0,
+              "currency": ""
+            },
+            "perks": [],
+            "promotions": null
+          }
+        ]
+      }
+    ],
+    "suggestedSellingPrice": 192.89,
+    "isPackageRate": true,
+    "commission": 0,
+    "price": 167.73,
+    "priceType": "commission",
+    "priceDifferencePercent": 0,
+    "cancellationChanged": false,
+    "boardChanged": false,
+    "supplier": "nuitee",
+    "supplierId": 2,
+    "paymentTypes": [
+      "NUITEE_PAY",
+      "ACC_CREDIT_CARD",
+      "WALLET"
+    ],
+    "checkin": "2026-12-18",
+    "checkout": "2026-12-20",
+    "sellingPriceToUser": 167.73
+  },
+  "guestLevel": 0,
+  "sandbox": true
+}

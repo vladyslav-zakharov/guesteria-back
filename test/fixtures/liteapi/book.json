@@ -1,0 +1,185 @@
+{
+  "_status": 200,
+  "data": {
+    "bookingId": "P1fAzOt6V",
+    "clientReference": "8efd576a-1535-4a76-8460-fabe8f1ab8cc",
+    "supplierBookingId": "P1fAzOt6V",
+    "supplierBookingName": "nuitee",
+    "supplier": "nuitee",
+    "supplierId": 2,
+    "status": "CONFIRMED",
+    "hotelConfirmationCode": "test",
+    "checkin": "2026-12-18",
+    "checkout": "2026-12-20",
+    "hotel": {
+      "hotelId": "lp1db88",
+      "name": "INNSiDE by Meliá Barcelona Apolo",
+      "parentHotelId": "lp1db88",
+      "phone": "",
+      "email": ""
+    },
+    "bookedRooms": [
+      {
+        "roomType": {
+          "roomTypeId": "",
+          "name": "Test rate 1"
+        },
+        "boardType": "RO",
+        "boardName": "Room Only",
+        "adults": 1,
+        "children": 0,
+        "rate": {
+          "rateId": "I5MTIVCNLJFFOTKVGNKEOTSSLJDVSMSEJVHEUU2HIEZVIRKOKRDUOWSUIRGVURBUI5CVEVCFJVBFGR2ZLFKEKTKKLFIFCWSEIFGVEV2HIVNEIRKNIQ2E2VSYIY3FMS2UKBJEWVKDG5BUMS2WJJEFSTKTIJDUEQSYLFHEEVSHJE2FQWJSJNIU2NKLKVITOQSSI42DIVCJJ5FFUR2FGNCEKTKCKZEEKM2GIEZDEMSNIVJFIQ2NKJJEONC2KRGUSWSSI5IVUVCBJRFFER2JLFKE6TK2K5IFESSFJVKFINCHJFMUIRKOKJJEOSKZKRAU2SSRI5AVSSCZJVKDIS2JLFKECTSKKNIFCWSEI5HFEWKIIVJFMRKULJCEWSSEIU2ESWSTI5AVURCNJRFFER2JK5KEGTKCIFDUKWKEKVGUEUKFJV6DEMZWFY4DS7BSGAZDMLJRGIWTCMBAGEYDUMBQHIYDA7CSJ56HY7D4JFHE4U2JIRCSAUSPJ5GXYMBOGAYHYMBOGAYHY7BQFYYDA7BQFYYDA",
+          "retailRate": {
+            "total": {
+              "amount": 236.89,
+              "currency": "EUR"
+            },
+            "suggestedSellingPrice": {
+              "source": "providerDirect"
+            },
+            "taxesAndFees": [
+              {
+                "included": true,
+                "description": "Value Added Tax",
+                "amount": 43.07,
+                "currency": "EUR"
+              }
+            ]
+          },
+          "cancellationPolicies": {
+            "cancelPolicyInfos": [
+              {
+                "cancelTime": "2026-12-18 23:59:59",
+                "amount": 236.89,
+                "type": "amount",
+                "timezone": "GMT",
+                "currency": "EUR"
+              }
+            ],
+            "hotelRemarks": [],
+            "refundableTag": "RFN"
+          },
+          "maxOccupancy": 1,
+          "boardType": "Room Only",
+          "boardName": "RO",
+          "remarks": "",
+          "perks": []
+        },
+        "firstName": "Test",
+        "lastName": "Guest",
+        "childrenAges": null,
+        "board": "Room Only",
+        "boardCode": "RO",
+        "cancellationPolicies": {
+          "cancelPolicyInfos": [
+            {
+              "cancelTime": "2026-12-18 23:59:59",
+              "amount": 236.89,
+              "type": "amount",
+              "timezone": "GMT",
+              "currency": "EUR"
+            }
+          ],
+          "hotelRemarks": [],
+          "refundableTag": "RFN"
+        },
+        "room_id": "I5MTIVCNLJFFOTKVGNKEOTSSLJDVSMSEJVHEUU2HIEZVIRKOKRDUOWSUIRGVURBUI5CVEVCFJVBFGR2ZLFKEKTKKLFIFCWSEIFGVEV2HIVNEIRKNIQ2E2VSYIY3FMS2UKBJEWVKDG5BUMS2WJJEFSTKTIJDUEQSYLFHEEVSHJE2FQWJSJNIU2NKLKVITOQSSI42DIVCJJ5FFUR2FGNCEKTKCKZEEKM2GIEZDEMSNIVJFIQ2NKJJEONC2KRGUSWSSI5IVUVCBJRFFER2JLFKE6TK2K5IFESSFJVKFINCHJFMUIRKOKJJEOSKZKRAU2SSRI5AVSSCZJVKDIS2JLFKECTSKKNIFCWSEI5HFEWKIIVJFMRKULJCEWSSEIU2ESWSTI5AVURCNJRFFER2JK5KEGTKCIFDUKWKEKVGUEUKFJV6DEMZWFY4DS7BSGAZDMLJRGIWTCMBAGEYDUMBQHIYDA7CSJ56HY7D4JFHE4U2JIRCSAUSPJ5GXYMBOGAYHYMBOGAYHY7BQFYYDA7BQFYYDA",
+        "occupancy_number": 1,
+        "amount": 236.89,
+        "currency": "EUR",
+        "children_count": 0,
+        "remarks": "",
+        "guests": [
+          {
+            "firstName": "Test",
+            "lastName": "Guest",
+            "email": "guest@example.com",
+            "phone": "",
+            "remarks": "",
+            "occupancyNumber": 1
+          }
+        ]
+      }
+    ],
+    "holder": {
+      "firstName": "Test",
+      "lastName": "Guest",
+      "email": "guest@example.com",
+      "phone": "+380000000000"
+    },
+    "createdAt": "2026-11-18T08:47:39",
+    "updatedAt": "",
+    "cancellationPolicies": {
+      "cancelPolicyInfos": [
+        {
+          "cancelTime": "2026-12-18 23:59:59",
+          "amount": 236.89,
+          "type": "amount",
+          "timezone": "GMT",
+          "currency": "EUR"
+        }
+      ],
+      "hotelRemarks": [],
+      "refundableTag": "RFN"
+    },
+    "specialRemarks": "Example special remarks",
+    "optionalFees": "Optional fees",
+    "mandatoryFees": "Mandatory fees",
+    "knowBeforeYouGo": "Know before you go",
+    "price": 236.89,
+    "sellingPriceToUser": 236.89,
+    "commission": 0,
+    "addonsTotalAmount": 0,
+    "currency": "EUR",
+    "remarks": "",
+    "voucherCode": "",
+    "voucherTotalAmount": 0,
+    "addons": null,
+    "guestId": 0,
+    "distributorCommission": 0,
+    "distributorPrice": 0,
+    "trackingId": "",
+    "firstName": "Test",
+    "lastName": "Guest",
+    "adults": 2,
+    "children": "",
+    "childrenCount": 0,
+    "prebookId": "EBuls8BUG",
+    "paymentStatus": "succeeded",
+    "paymentTransactionId": "REDACTED",
+    "sellingPrice": "236.89",
+    "exchangeRate": 1,
+    "exchangeRateUsd": 1.0997880791,
+    "email": "guest@example.com",
+    "tag": "RFN",
+    "lastFreeCancellationDate": "2026-12-18T23:59:59Z",
+    "userId": 0,
+    "nationality": "UA",
+    "holderTitle": "",
+    "hotelId": "lp1db88",
+    "hotelName": "INNSiDE by Meliá Barcelona Apolo",
+    "cancelledAt": null,
+    "refundedAt": null,
+    "loyaltyGuestId": null,
+    "sandbox": 1,
+    "clientCommission": 0,
+    "voucherId": null,
+    "voucherTransationId": null,
+    "processingFee": 2.6,
+    "amountRefunded": 0,
+    "refundType": "",
+    "addonsRedemptions": null,
+    "rebookFrom": "",
+    "agentId": null,
+    "cancelledBy": null,
+    "feed": "liteapionboarding",
+    "goodwillPayment": null,
+    "newCharges": 0,
+    "compensationAmount": 0,
+    "hotelRemarks": "",
+    "payLaterDeadline": null
+  },
+  "guestLevel": 0,
+  "sandbox": true
+}
