@@ -1,0 +1,1 @@
+export const DEFAULT_TRUST_PROXY_HOPS = 1;

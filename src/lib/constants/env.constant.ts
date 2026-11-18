@@ -1,0 +1,7 @@
+export const DEFAULT_AI_DAILY_LIMIT = 30;
+
+export const DEFAULT_AI_TIMEOUT_MS = 25000;
+
+export const DEFAULT_AI_GLOBAL_DAILY_LIMIT = 500;
+
+export const APPLICATION_SECRET_MIN_LENGTH = 32;

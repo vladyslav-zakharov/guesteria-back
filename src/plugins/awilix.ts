@@ -3,8 +3,10 @@ import fp from "fastify-plugin";
 import { dirname } from "path";
 import { fileURLToPath } from "url";
 import { FastifyInstance } from "fastify";
+import { createAiService } from "@/lib/ai/ai.service.js";
 import { asValue, createContainer, InjectionMode } from "awilix";
 import { FastifyPlugin } from "@/lib/constants/fastify.constant.js";
+import { createLiteApiClient } from "@/lib/liteapi/liteapi.client.js";
 import { resolverOptionsRegister } from "@/lib/awilix/resolver-registration.js";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -23,6 +25,10 @@ const configureAwilix = async (fastify: FastifyInstance) => {
         log: asValue(fastify.log),
         prisma: asValue(fastify.prisma),
         config: asValue(fastify.config),
+        liteApiClient: asValue(
+            createLiteApiClient(fastify.config, fastify.log)
+        ),
+        aiService: asValue(createAiService(fastify.config, fastify.log)),
     });
 
     // Register dependencies from the application: repositories, services, route handlers

@@ -1,0 +1,1053 @@
+{
+  "_status": 200,
+  "data": {
+    "id": "lp1db88",
+    "name": "INNSiDE by Meliá Barcelona Apolo",
+    "hotelDescription": "<p><strong>Modern Rooms with Smart Décor</strong></p><p>INNSiDE by Meliá Barcelona Apolo offers air-conditioned rooms with WiFi, flat-screen TV, minibar, work desk, and stylish wooden floors. The rooms, refurbished in 2017, provide a comfortable and contemporary space for guests to relax after a day of exploring Barcelona.</p><p><strong>Convenient Location at the Foot of Montjuïc</strong></p><p>Situated just 7 minutes’ walk from Barcelona’s iconic Ramblas, our hotel's location at the foot of Montjuïc offers easy access to popular attractions and vibrant city life. With the Parallel Metro Station next door, reaching the Fira Convention Centre is quick and effortless.</p><p><strong>Delicious Buffet Breakfast and Snack Bar</strong></p><p>Start your day right with a varied buffet breakfast served every morning at the hotel. Additionally, unwind in the evenings at the snack bar, offering a selection of light meals. Enjoy a culinary experience without leaving the comfort of the hotel.</p><p>Book your stay at INNSiDE by Meliá Barcelona Apolo for a memorable and convenient Barcelona getaway.</p>",
+    "hotelImportantInformation": "All cots are subject to availability.\n\nPlease note, when booking more than 9 rooms, different policies and additional supplements may apply.\n\nPlease note that guests must present the credit card used to make the reservation on arrival.\n\nPlease note that pets are only allowed upon request and subject to approval. \n\nPlease note that a maximum of 2 dogs/pets are allowed per room.\n\nPlease note that pets will incur an additional charge of EUR 45 per day, per pet.\n\nPlease note that the minibar service offered in the rooms is free of charge.Guests are required to show a photo ID and credit card upon check-in. Please note that all Special Requests are subject to availability and additional charges may apply.\nA deposit may be required at the property.",
+    "checkinCheckoutTimes": {
+      "checkin_start": "03:00 PM",
+      "checkin_end": "",
+      "checkout": "12:00 PM",
+      "instructions": [],
+      "special_instructions": ""
+    },
+    "hotelImages": [
+      {
+        "url": "https://static.cupid.travel/hotels/443602434.jpg",
+        "urlHd": "https://static.cupid.travel/hotels/443602434.jpg",
+        "caption": "lounge",
+        "order": 0,
+        "defaultImage": true
+      },
+      {
+        "url": "https://static.cupid.travel/hotels/424914778.jpg",
+        "urlHd": "https://static.cupid.travel/hotels/424914778.jpg",
+        "caption": "hotel room",
+        "order": 0,
+        "defaultImage": false
+      },
+      {
+        "url": "https://static.cupid.travel/hotels/424913208.jpg",
+        "urlHd": "https://static.cupid.travel/hotels/424913208.jpg",
+        "caption": "hotel room",
+        "order": 0,
+        "defaultImage": false
+      },
+      {
+        "url": "https://static.cupid.travel/hotels/424914766.jpg",
+        "urlHd": "https://static.cupid.travel/hotels/424914766.jpg",
+        "caption": "hotel room",
+        "order": 0,
+        "defaultImage": false
+      },
+      {
+        "url": "https://static.cupid.travel/hotels/424915252.jpg",
+        "urlHd": "https://static.cupid.travel/hotels/424915252.jpg",
+        "caption": "hotel room",
+        "order": 0,
+        "defaultImage": false
+      }
+    ],
+    "main_photo": "https://static.cupid.travel/hotels/443602434.jpg",
+    "thumbnail": "https://static.cupid.travel/hotels/thumbnail/443602434.jpg",
+    "currency": "EUR",
+    "country": "ES",
+    "city": "Barcelona",
+    "starRating": 4,
+    "location": {
+      "latitude": 41.374653,
+      "longitude": 2.17079
+    },
+    "address": "Avenida Paralelo, 57-59",
+    "hotelFacilities": [
+      "Fitness facilities",
+      "WiFi available",
+      "Free WiFi",
+      "Parking",
+      "Air conditioning",
+      "Fitness center",
+      "24-hour front desk",
+      "Restaurant",
+      "Room service",
+      "Heating",
+      "Terrace",
+      "Pets allowed",
+      "Lift / Elevator",
+      "Laundry",
+      "Luggage storage",
+      "Express check-in/check-out",
+      "Safety deposit box",
+      "Bar",
+      "Fax/photocopying",
+      "Tour desk",
+      "Soundproof rooms",
+      "Facilities for disabled guests",
+      "Ironing service",
+      "Meeting/banquet facilities",
+      "Packed lunches",
+      "Currency exchange",
+      "Non-smoking throughout",
+      "Private parking",
+      "Private check-in/check-out",
+      "Shared lounge/TV area",
+      "Concierge service",
+      "Special diet menus - on request",
+      "Wheelchair accessible",
+      "Snack bar",
+      "Public Bath",
+      "Outdoor furniture",
+      "Coffee Shop on site",
+      "Pet bowls",
+      "Pet basket",
+      "Fire extinguishers",
+      "Invoice provided",
+      "Smoke alarms",
+      "CCTV outside property",
+      "CCTV in common areas",
+      "24-hour security",
+      "Security alarm",
+      "Breakfast takeaway containers",
+      "Key card access"
+    ],
+    "zip": "08004",
+    "chainId": 2113,
+    "chain": "Innside by Melia",
+    "facilities": [
+      {
+        "facilityId": 492,
+        "name": "Fitness facilities"
+      },
+      {
+        "facilityId": 47,
+        "name": "WiFi available"
+      },
+      {
+        "facilityId": 107,
+        "name": "Free WiFi"
+      },
+      {
+        "facilityId": 2,
+        "name": "Parking"
+      },
+      {
+        "facilityId": 109,
+        "name": "Air conditioning"
+      },
+      {
+        "facilityId": 11,
+        "name": "Fitness center"
+      },
+      {
+        "facilityId": 8,
+        "name": "24-hour front desk"
+      },
+      {
+        "facilityId": 3,
+        "name": "Restaurant"
+      },
+      {
+        "facilityId": 5,
+        "name": "Room service"
+      },
+      {
+        "facilityId": 80,
+        "name": "Heating"
+      },
+      {
+        "facilityId": 15,
+        "name": "Terrace"
+      },
+      {
+        "facilityId": 4,
+        "name": "Pets allowed"
+      },
+      {
+        "facilityId": 48,
+        "name": "Lift / Elevator"
+      },
+      {
+        "facilityId": 22,
+        "name": "Laundry"
+      },
+      {
+        "facilityId": 91,
+        "name": "Luggage storage"
+      },
+      {
+        "facilityId": 49,
+        "name": "Express check-in/check-out"
+      },
+      {
+        "facilityId": 51,
+        "name": "Safety deposit box"
+      },
+      {
+        "facilityId": 7,
+        "name": "Bar"
+      },
+      {
+        "facilityId": 81,
+        "name": "Fax/photocopying"
+      },
+      {
+        "facilityId": 78,
+        "name": "Tour desk"
+      },
+      {
+        "facilityId": 64,
+        "name": "Soundproof rooms"
+      },
+      {
+        "facilityId": 25,
+        "name": "Facilities for disabled guests"
+      },
+      {
+        "facilityId": 44,
+        "name": "Ironing service"
+      },
+      {
+        "facilityId": 6,
+        "name": "Meeting/banquet facilities"
+      },
+      {
+        "facilityId": 73,
+        "name": "Packed lunches"
+      },
+      {
+        "facilityId": 53,
+        "name": "Currency exchange"
+      },
+      {
+        "facilityId": 108,
+        "name": "Non-smoking throughout"
+      },
+      {
+        "facilityId": 161,
+        "name": "Private parking"
+      },
+      {
+        "facilityId": 127,
+        "name": "Private check-in/check-out"
+      },
+      {
+        "facilityId": 143,
+        "name": "Shared lounge/TV area"
+      },
+      {
+        "facilityId": 124,
+        "name": "Concierge service"
+      },
+      {
+        "facilityId": 133,
+        "name": "Special diet menus - on request"
+      },
+      {
+        "facilityId": 185,
+        "name": "Wheelchair accessible"
+      },
+      {
+        "facilityId": 117,
+        "name": "Snack bar"
+      },
+      {
+        "facilityId": 167,
+        "name": "Public Bath"
+      },
+      {
+        "facilityId": 222,
+        "name": "Outdoor furniture"
+      },
+      {
+        "facilityId": 219,
+        "name": "Coffee Shop on site"
+      },
+      {
+        "facilityId": 218,
+        "name": "Pet bowls"
+      },
+      {
+        "facilityId": 217,
+        "name": "Pet basket"
+      },
+      {
+        "facilityId": 425,
+        "name": "Fire extinguishers"
+      },
+      {
+        "facilityId": 465,
+        "name": "Invoice provided"
+      },
+      {
+        "facilityId": 422,
+        "name": "Smoke alarms"
+      },
+      {
+        "facilityId": 424,
+        "name": "CCTV outside property"
+      },
+      {
+        "facilityId": 423,
+        "name": "CCTV in common areas"
+      },
+      {
+        "facilityId": 418,
+        "name": "24-hour security"
+      },
+      {
+        "facilityId": 421,
+        "name": "Security alarm"
+      },
+      {
+        "facilityId": 484,
+        "name": "Breakfast takeaway containers"
+      },
+      {
+        "facilityId": 420,
+        "name": "Key card access"
+      }
+    ],
+    "rooms": [
+      {
+        "id": 2199966,
+        "roomName": "The Studio City View",
+        "roomTitle": "The Studio City View",
+        "description": "<p>Refurbished in 2017, this room comes with an exclusive premium Flex bed and free Wi-Fi. It features free newspapers; while the private bathroom includes bathrobes and slippers.</p>",
+        "markdownDescription": "Refurbished in 2017, this room comes with an exclusive premium Flex bed and free Wi-Fi. It features free newspapers; while the private bathroom includes bathrobes and slippers.",
+        "normalizedDescription": "",
+        "roomSizeSquare": 21,
+        "roomSizeUnit": "sqm",
+        "hotelId": "lp1db88",
+        "maxAdults": 2,
+        "maxChildren": 0,
+        "maxOccupancy": 2,
+        "ranking": 2,
+        "bedTypes": [
+          {
+            "quantity": 2,
+            "bedType": "Twin bed",
+            "bedSize": "90-130 cm wide",
+            "id": 166
+          }
+        ],
+        "roomAmenities": [
+          {
+            "amenitiesId": 64,
+            "name": "Coffee/tea maker",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 216,
+            "name": "Minibar",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 312,
+            "name": "Shower",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 293,
+            "name": "Safety deposit box",
+            "sort": 17
+          },
+          {
+            "amenitiesId": 339,
+            "name": "TV",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 342,
+            "name": "Telephone",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 11,
+            "name": "Air conditioning",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 148,
+            "name": "Hair dryer",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 22,
+            "name": "Bathrobe",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 82,
+            "name": "Desk",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 350,
+            "name": "Toilet",
+            "sort": 10
+          },
+          {
+            "amenitiesId": 266,
+            "name": "Private bathroom",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 156,
+            "name": "Heating",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 318,
+            "name": "Slippers",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 152,
+            "name": "Hardwood or parquet floors",
+            "sort": 26
+          },
+          {
+            "amenitiesId": 96,
+            "name": "Electric kettle",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 377,
+            "name": "Wardrobe or closet",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 63,
+            "name": "Coffee machine",
+            "sort": 46
+          },
+          {
+            "amenitiesId": 197,
+            "name": "Linen",
+            "sort": 43
+          },
+          {
+            "amenitiesId": 366,
+            "name": "Upper floors accessible by elevator",
+            "sort": 166
+          },
+          {
+            "amenitiesId": 60,
+            "name": "Clothes rack",
+            "sort": 72
+          },
+          {
+            "amenitiesId": 352,
+            "name": "Toilet paper",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 37,
+            "name": "Bottle of water",
+            "sort": 152
+          },
+          {
+            "amenitiesId": 361,
+            "name": "Trash cans",
+            "sort": 85
+          },
+          {
+            "amenitiesId": 307,
+            "name": "Shampoo",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 71,
+            "name": "Conditioner",
+            "sort": 108
+          },
+          {
+            "amenitiesId": 35,
+            "name": "Body soap",
+            "sort": 109
+          },
+          {
+            "amenitiesId": 327,
+            "name": "Socket near the bed",
+            "sort": 89
+          },
+          {
+            "amenitiesId": 166,
+            "name": "Hypoallergenic pillow",
+            "sort": 93
+          },
+          {
+            "amenitiesId": 322,
+            "name": "Smoke alarm",
+            "sort": 182
+          },
+          {
+            "amenitiesId": 182,
+            "name": "Key card access",
+            "sort": 158
+          },
+          {
+            "amenitiesId": 264,
+            "name": "Privacy curtain",
+            "sort": 181
+          },
+          {
+            "amenitiesId": 386,
+            "name": "Window",
+            "sort": 14
+          },
+          {
+            "amenitiesId": 123,
+            "name": "Free gym access",
+            "sort": 194
+          }
+        ],
+        "photos": [
+          {
+            "url": "https://static.cupid.travel/rooms-large-pictures/424915252.jpg",
+            "imageDescription": "Hotel room with two single beds, blue linens, and a large window with sheer curtains.",
+            "imageClass1": "hotel room",
+            "imageClass2": "",
+            "failoverPhoto": "",
+            "mainPhoto": true,
+            "score": 0.95,
+            "classId": 80,
+            "classOrder": 0,
+            "hd_url": "https://static.cupid.travel/rooms-large-pictures/424915252.jpg"
+          },
+          {
+            "url": "https://static.cupid.travel/rooms-large-pictures/424911821.jpg",
+            "imageDescription": "Hotel room with a light blue bed, small dining table, and sheer white curtains.",
+            "imageClass1": "hotel room",
+            "imageClass2": "",
+            "failoverPhoto": "",
+            "mainPhoto": false,
+            "score": 0.95,
+            "classId": 80,
+            "classOrder": 0,
+            "hd_url": "https://static.cupid.travel/rooms-large-pictures/424911821.jpg"
+          }
+        ],
+        "views": [
+          {
+            "view": "City View",
+            "id": 4
+          }
+        ],
+        "bedRelation": "NONE",
+        "officialSiteRoomName": null,
+        "attributes": {
+          "television": true,
+          "televisionSize": null,
+          "airConditioner": true,
+          "hairDryer": true,
+          "iron": null,
+          "hangers": null,
+          "coffeeMaker": true,
+          "crib": null,
+          "laptopFriendlyWorkplace": true,
+          "kitchen": null,
+          "smokeDetector": true,
+          "carbonMonoxideDetector": null
+        },
+        "parentRoomId": null
+      },
+      {
+        "id": 2199965,
+        "roomName": "The Studio with Balcony",
+        "roomTitle": "The Studio with Balcony",
+        "description": "<p>Refurbished in 2017, this room comes with an exclusive premium Flex bed and free Wi-Fi. It features free newspapers; while the private bathroom includes bathrobes and slippers.</p>",
+        "markdownDescription": "Refurbished in 2017, this room comes with an exclusive premium Flex bed and free Wi-Fi. It features free newspapers; while the private bathroom includes bathrobes and slippers.",
+        "normalizedDescription": "",
+        "roomSizeSquare": 23,
+        "roomSizeUnit": "sqm",
+        "hotelId": "lp1db88",
+        "maxAdults": 2,
+        "maxChildren": 0,
+        "maxOccupancy": 2,
+        "ranking": 1,
+        "bedTypes": [
+          {
+            "quantity": 2,
+            "bedType": "Twin bed",
+            "bedSize": "90-130 cm wide",
+            "id": 166
+          }
+        ],
+        "roomAmenities": [
+          {
+            "amenitiesId": 64,
+            "name": "Coffee/tea maker",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 216,
+            "name": "Minibar",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 312,
+            "name": "Shower",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 293,
+            "name": "Safety deposit box",
+            "sort": 17
+          },
+          {
+            "amenitiesId": 339,
+            "name": "TV",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 342,
+            "name": "Telephone",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 11,
+            "name": "Air conditioning",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 148,
+            "name": "Hair dryer",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 22,
+            "name": "Bathrobe",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 82,
+            "name": "Desk",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 350,
+            "name": "Toilet",
+            "sort": 10
+          },
+          {
+            "amenitiesId": 266,
+            "name": "Private bathroom",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 156,
+            "name": "Heating",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 318,
+            "name": "Slippers",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 152,
+            "name": "Hardwood or parquet floors",
+            "sort": 26
+          },
+          {
+            "amenitiesId": 96,
+            "name": "Electric kettle",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 377,
+            "name": "Wardrobe or closet",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 63,
+            "name": "Coffee machine",
+            "sort": 46
+          },
+          {
+            "amenitiesId": 197,
+            "name": "Linen",
+            "sort": 43
+          },
+          {
+            "amenitiesId": 366,
+            "name": "Upper floors accessible by elevator",
+            "sort": 166
+          },
+          {
+            "amenitiesId": 60,
+            "name": "Clothes rack",
+            "sort": 72
+          },
+          {
+            "amenitiesId": 352,
+            "name": "Toilet paper",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 37,
+            "name": "Bottle of water",
+            "sort": 152
+          },
+          {
+            "amenitiesId": 361,
+            "name": "Trash cans",
+            "sort": 85
+          },
+          {
+            "amenitiesId": 307,
+            "name": "Shampoo",
+            "sort": 0
+          },
+          {
+            "amenitiesId": 71,
+            "name": "Conditioner",
+            "sort": 108
+          },
+          {
+            "amenitiesId": 35,
+            "name": "Body soap",
+            "sort": 109
+          },
+          {
+            "amenitiesId": 327,
+            "name": "Socket near the bed",
+            "sort": 89
+          },
+          {
+            "amenitiesId": 166,
+            "name": "Hypoallergenic pillow",
+            "sort": 93
+          },
+          {
+            "amenitiesId": 322,
+            "name": "Smoke alarm",
+            "sort": 182
+          },
+          {
+            "amenitiesId": 182,
+            "name": "Key card access",
+            "sort": 158
+          },
+          {
+            "amenitiesId": 264,
+            "name": "Privacy curtain",
+            "sort": 181
+          },
+          {
+            "amenitiesId": 386,
+            "name": "Window",
+            "sort": 14
+          },
+          {
+            "amenitiesId": 123,
+            "name": "Free gym access",
+            "sort": 194
+          }
+        ],
+        "photos": [
+          {
+            "url": "https://static.cupid.travel/rooms-large-pictures/424914763.jpg",
+            "imageDescription": "Hotel room with a blue bed, small dining table, and balcony doors.",
+            "imageClass1": "hotel room",
+            "imageClass2": "",
+            "failoverPhoto": "",
+            "mainPhoto": true,
+            "score": 0.95,
+            "classId": 80,
+            "classOrder": 0,
+            "hd_url": "https://static.cupid.travel/rooms-large-pictures/424914763.jpg"
+          },
+          {
+            "url": "https://static.cupid.travel/rooms-large-pictures/424914768.jpg",
+            "imageDescription": "Hotel room with two beds, a small dining table, and a balcony with a city view.",
+            "imageClass1": "hotel room",
+            "imageClass2": "",
+            "failoverPhoto": "",
+            "mainPhoto": false,
+            "score": 0.95,
+            "classId": 80,
+            "classOrder": 0,
+            "hd_url": "https://static.cupid.travel/rooms-large-pictures/424914768.jpg"
+          }
+        ],
+        "views": [],
+        "bedRelation": "NONE",
+        "officialSiteRoomName": null,
+        "attributes": {
+          "television": true,
+          "televisionSize": null,
+          "airConditioner": true,
+          "hairDryer": true,
+          "iron": null,
+          "hangers": null,
+          "coffeeMaker": true,
+          "crib": null,
+          "laptopFriendlyWorkplace": true,
+          "kitchen": null,
+          "smokeDetector": true,
+          "carbonMonoxideDetector": null
+        },
+        "parentRoomId": null
+      }
+    ],
+    "phone": "+34 933 43 30 00",
+    "poi": [
+      {
+        "name": "La Rambla & Columbus Monument",
+        "category": "district",
+        "distanceKm": 1.3,
+        "importance": "iconic"
+      },
+      {
+        "name": "Sagrada Família",
+        "category": "religious",
+        "distanceKm": 4,
+        "importance": "iconic"
+      },
+      {
+        "name": "Museu Nacional d'Art de Catalunya (MNAC) — Montjuïc",
+        "category": "museum",
+        "distanceKm": 0.9,
+        "importance": "major"
+      },
+      {
+        "name": "Barri Gòtic (Gothic Quarter)",
+        "category": "district",
+        "distanceKm": 1.1,
+        "importance": "major"
+      },
+      {
+        "name": "Barceloneta Beach",
+        "category": "beach",
+        "distanceKm": 2.5,
+        "importance": "major"
+      },
+      {
+        "name": "Casa Batlló (Passeig de Gràcia)",
+        "category": "landmark",
+        "distanceKm": 2.7,
+        "importance": "major"
+      },
+      {
+        "name": "Park Güell",
+        "category": "park",
+        "distanceKm": 4.8,
+        "importance": "major"
+      },
+      {
+        "name": "Barcelona–El Prat Airport (BCN)",
+        "category": "airport",
+        "distanceKm": 12,
+        "importance": "major"
+      },
+      {
+        "name": "Paral·lel metro station",
+        "category": "train_station",
+        "distanceKm": 0.2,
+        "importance": "notable"
+      }
+    ],
+    "fax": "",
+    "email": "",
+    "hotelType": "Hotels",
+    "hotelTypeId": 204,
+    "airportCode": "BCN",
+    "rating": 8.9,
+    "reviewCount": 3849,
+    "parking": "PAID",
+    "groupRoomMin": 0,
+    "childAllowed": true,
+    "petsAllowed": false,
+    "policies": [],
+    "rohId": 2199955,
+    "sentiment_analysis": {
+      "cons": [
+        "Check-in problems and long check-in times (including denied early check-in for a partner)",
+        "Street and late-night club/tourist noise affecting rooms on the street side",
+        "Interior doors not very soundproof (hallway noise)",
+        "Occasional housekeeping issues (missed cleaning, hairs in bathroom)",
+        "Some expected 4-star items not provided by default (slippers, toiletries without request)"
+      ],
+      "pros": [
+        "Central, well-connected location near attractions",
+        "Friendly and helpful staff at reception",
+        "Excellent, varied breakfast",
+        "Spacious and comfortable rooms (balconies noted)",
+        "Complimentary mini-bar and useful common-area amenities (work cabins)"
+      ],
+      "categories": [
+        {
+          "name": "Cleanliness",
+          "rating": 8.5,
+          "description": "Generally reported as clean and well maintained (rooms described as clean, daily housekeeping), but occasional issues noted: missed a day of room cleaning and one report of hairs in the shower/bathroom."
+        },
+        {
+          "name": "Service",
+          "rating": 9.2,
+          "description": "Staff repeatedly praised as professional, friendly and helpful (reception, check-in assistance, concierge-type help). However there are notable service failures: long check-in process in some cases and a problematic check-in incident where a partner was not allowed to check in despite prior notice."
+        },
+        {
+          "name": "Location",
+          "rating": 9.3,
+          "description": "Consistently highlighted as an excellent, central location — well connected by metro/bus and close to attractions. Drawback: lively street and late-night tourist/club noise reported by several guests."
+        },
+        {
+          "name": "Room Quality",
+          "rating": 8.6,
+          "description": "Rooms described as spacious, comfortable with good showers and balconies. Some negatives: mattress sometimes too soft for some guests and internal doors are not very soundproof leading to hallway noise."
+        },
+        {
+          "name": "Amenities",
+          "rating": 9,
+          "description": "Strong amenities noted: complimentary mini-bar, work cabins, comfortable common areas. Minor complaints: in-room coffee machine awkward to use, and some expected 4-star items (slippers) not provided by default; toiletries sometimes had to be requested."
+        },
+        {
+          "name": "Value for Money",
+          "rating": 8.2,
+          "description": "Mixed: several guests felt the experience justified the price (upgrades, early check-in options), while others felt the high price did not match problems like late/chaotic check-in or missing expected toiletries."
+        },
+        {
+          "name": "Food and Beverage",
+          "rating": 9.6,
+          "description": "Very strong positive sentiment for breakfast and dining: multiple guests called the breakfast excellent/very rich and praised available meals; generally high satisfaction with food offerings."
+        },
+        {
+          "name": "Overall Experience",
+          "rating": 8.8,
+          "description": "Overall positive experience for most guests (many would return, several 'everything was great' reports), tempered by recurring issues around check-in logistics and street/night noise."
+        }
+      ]
+    },
+    "sentiment_updated_at": "2026-11-05T14:05:34Z",
+    "deletedAt": null,
+    "state": null,
+    "website": null,
+    "contact": {
+      "legalEntity": null,
+      "registrationNumber": null,
+      "licenceNumbers": null
+    },
+    "policyAttributes": {
+      "checkIn": {
+        "from": "15:00",
+        "until": null
+      },
+      "checkOut": {
+        "until": "12:00"
+      },
+      "minimumCheckInAge": null,
+      "saleCutoff": {
+        "time": null,
+        "daysBefore": null
+      },
+      "children": {
+        "allowed": true,
+        "infantsAllowed": null,
+        "cribAvailable": null,
+        "cribFee": null,
+        "cribAgeMax": null
+      },
+      "pets": {
+        "allowed": true,
+        "fee": null,
+        "feeAmount": null,
+        "feeCurrency": null,
+        "feeBasis": null,
+        "weightLimitLb": null,
+        "feeRefundable": null,
+        "terms": null
+      },
+      "deposit": {
+        "required": null,
+        "amount": null,
+        "currency": null,
+        "basis": null,
+        "collectedAt": null,
+        "refundedAt": null,
+        "method": null
+      },
+      "payment": {
+        "cardsAccepted": true,
+        "cashAccepted": null
+      },
+      "wifi": {
+        "inRoom": true,
+        "free": true,
+        "feeAmount": null,
+        "feePeriod": null,
+        "freeInPublicAreas": null
+      },
+      "parking": {
+        "selfParking": true,
+        "free": false,
+        "chargeMode": "charges_apply",
+        "feeAmount": null,
+        "feePeriod": null,
+        "location": null,
+        "reservationRequired": null,
+        "valet": false,
+        "evCharger": false
+      },
+      "facilities": {
+        "nonSmokingProperty": true,
+        "elevator": true,
+        "fitnessCenter": true,
+        "fitnessOpen24h": null,
+        "pool": false,
+        "poolType": null,
+        "poolCurrentlyClosed": null,
+        "hotTub": false,
+        "spaServices": false,
+        "sauna": false,
+        "saunaCurrentlyClosed": null
+      },
+      "foodAndDrink": {
+        "bar": true,
+        "restaurant": true,
+        "restaurantNames": null,
+        "roomService": true,
+        "breakfastAvailable": false,
+        "breakfastIncluded": null,
+        "breakfastPrice": {
+          "amount": null,
+          "currency": null,
+          "period": null
+        },
+        "breakfastType": null
+      },
+      "renovation": {
+        "underway": null,
+        "notes": null
+      },
+      "resortFee": {
+        "amount": null,
+        "currency": null,
+        "period": null
+      },
+      "cancellationTerms": null,
+      "houseRules": null,
+      "facilityClosures": null,
+      "roomAmenitiesAllRooms": {
+        "television": true,
+        "televisionSize": null,
+        "airConditioner": true,
+        "hairDryer": true,
+        "iron": null,
+        "hangers": null,
+        "coffeeMaker": null,
+        "crib": null,
+        "laptopFriendlyWorkplace": true,
+        "kitchen": null,
+        "smokeDetector": true,
+        "carbonMonoxideDetector": null
+      }
+    },
+    "operatingStatus": {
+      "status": null,
+      "checkedAt": null
+    },
+    "connectivityType": "Pull"
+  }
+}

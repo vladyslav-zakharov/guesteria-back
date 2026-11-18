@@ -1,2 +1,7 @@
 node_modules
 .volumes
+.env
+.env.*
+.git
+build
+test

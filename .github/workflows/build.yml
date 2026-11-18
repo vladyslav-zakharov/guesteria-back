@@ -2,7 +2,11 @@ name: Lint & Build
 
 on:
     pull_request:
-        branches: ["main"]
+    push:
+        branches: [main]
+
+permissions:
+    contents: read
 
 jobs:
     build:
@@ -13,10 +17,11 @@ jobs:
                 node-version: [22.x]
 
         steps:
-            - uses: actions/checkout@v3
+            - name: Checkout repository
+              uses: actions/checkout@v4
 
             - name: Set up Node.js
-              uses: actions/setup-node@v3
+              uses: actions/setup-node@v4
               with:
                   node-version: ${{ matrix.node-version }}
                   cache: "npm"
@@ -26,6 +31,9 @@ jobs:
 
             - name: Lint application
               run: npm run lint
+
+            - name: Type check
+              run: npm run tsc-check
 
             - name: Build application
               run: npm run build

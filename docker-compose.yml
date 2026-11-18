@@ -1,14 +1,14 @@
 services:
     postgresdb:
         image: postgres:16.4
-        container_name: app-postgres-db
+        container_name: guesteria-postgres-db
         restart: no
         environment:
             POSTGRES_DB: "postgres"
             POSTGRES_USER: "postgres"
             POSTGRES_PASSWORD: "12345"
         ports:
-            - "5432:5432"
+            - "5435:5432"
         expose:
             - "5432"
         networks:
@@ -21,9 +21,10 @@ services:
             context: .
             dockerfile: Dockerfile
             target: base
-        container_name: app-node-api
-        environment:
+        container_name: guesteria-node-api
+        env_file:
             - .env
+        environment:
             - PORT=3001
         ports:
             - "3001:3001"

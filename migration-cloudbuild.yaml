@@ -1,0 +1,28 @@
+# The migration Cloud Build trigger defined in guesteria-infra reads this file from the repo root.
+#
+# Migrations run over the Supabase SESSION pooler (port 5432):
+#   DIRECT_URL   = session-pooler URL from Secret Manager ($_DIRECT_URL_SECRET_ID); prisma migrate deploy connects via this.
+#   DATABASE_URL = derived from DIRECT_URL at runtime, because the schema still declares url=env("DATABASE_URL").
+# Cloud Build forbids mapping the same secret version to two env vars, so we map DIRECT_URL only.
+steps:
+  - name: "node:22"
+    id: "install-deps"
+    entrypoint: "npm"
+    args: ["ci"]
+
+  - name: "node:22"
+    id: "run-migrations"
+    entrypoint: bash
+    args:
+      - -c
+      - 'DATABASE_URL="$$DIRECT_URL" npm run prisma:deploy'
+    secretEnv: ["DIRECT_URL"]
+
+options:
+  substitutionOption: ALLOW_LOOSE
+  logging: CLOUD_LOGGING_ONLY
+
+availableSecrets:
+  secretManager:
+    - versionName: $_DIRECT_URL_SECRET_ID/versions/latest
+      env: "DIRECT_URL"
